@@ -1,4 +1,4 @@
-package softeer.day5;
+package han.softeer.day5;
 
 import java.io.BufferedReader;
 import java.io.IOException;
