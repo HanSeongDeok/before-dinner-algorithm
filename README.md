@@ -10,11 +10,8 @@
 4. 알고리즘 풀이 후 Pull Request를 보낸다.
 
 ### PR 컨벤션
-- 제목
-```
-[주차-{플랫폼}]: {문제이름}
-```
-ex) [week1-BAEKJOON]: A+B
+- 제목: `[주차-{플랫폼}]: {문제이름}`
+  - ex) [week1-BAEKJOON]: A+B
 
 - 시간복잡도(필수)
 - 회고(선택)
@@ -28,3 +25,83 @@ ex) [week1-BAEKJOON]: A+B
 | 소프티어 | SOFTEER|
 
 ## 🔥Progress
+<table>
+  <tr>
+    <td></td>
+    <td colspan=2>문제1</td>
+    <td colspan=2>문제2</td>
+    <td colspan=2>문제3</td>
+    <td colspan=2>문제4</td>
+    <td colspan=2>문제5</td>
+    <td colspan=2>문제6</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Week1</td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/1037">약수</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2069">최대공약수와 최소공배수</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2960">에라스토테네스의 체</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/1929">소수 구하기</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/14561">회문</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/9012">괄호</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Week2</td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6295">A+B</a></td></td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6254">근무 시간</a></td></td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6288">금고털이</a></td></td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6266">회의실 예약</a></td></td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6270">GBC</a></td></td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6289">우물 안 개구리</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Week3</td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6259">비밀 메뉴2</a></td></td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6280">지도 자동 구축</a></td></td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6271">GINI야 도와줘</a></td></td>
+    <td colspan="2"><a href="https://softeer.ai/practice/6273">택배 마스터 광우</a></td></td>
+    <td colspan="2"><a href=""><b></b></a></td></td>
+    <td colspan="2"><a href=""><b></b></a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+  </tr>
+</table>
