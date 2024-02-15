@@ -13,10 +13,8 @@
 
 ### PR 컨벤션
 
-- 제목: `[주차-{플랫폼}]: {문제이름}`
-
-  - ex) [week1-BAEKJOON]: A+B
-
+- 제목: `[주차-{플랫폼}] {문제이름}`
+  - ex) [week1-BAEKJOON] A+B
 - 시간복잡도(필수)
 - 회고(선택)
 
@@ -52,17 +50,17 @@
   </tr>
   <tr>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/1037_week1.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/2609_week1.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/2960_week1.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/1929_week1.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/14561_week1.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/9012_week1.java">🐣</a></td>
   </tr>
   <tr>
     <td rowspan="2">Week2</td>
@@ -75,17 +73,17 @@
   </tr>
   <tr>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6295_week2.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6254_week2.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6288_week2.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6266_week2.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6270_week2.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6289_week2.java">🐣</a></td>
   </tr>
   <tr>
     <td rowspan="2">Week3</td>
@@ -98,13 +96,13 @@
   </tr>
   <tr>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6259_week3.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6280_week3.jav">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6271_week3.jav">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6273_week3.jav">🐣</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
