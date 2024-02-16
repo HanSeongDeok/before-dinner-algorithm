@@ -2,7 +2,7 @@
 
 📅 **24.01.18 ~ ing**
 
-## Rules
+## ✅ Rules
 
 ### 방법
 
@@ -98,11 +98,11 @@
     <td><a href="">🏂</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6259_week3.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6280_week3.jav">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6280_week3.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6271_week3.jav">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6271_week3.java">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6273_week3.jav">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/softeer/chaeeun/6273_week3.java">🐣</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
