@@ -135,10 +135,10 @@
     <td rowspan="2">Week5</td>
     <td colspan="2"><a href="https://leetcode.com/problems/contains-duplicate/description/">Contains Duplicate</a></td></td>
     <td colspan="2"><a href="https://leetcode.com/problems/valid-anagram/description/">Valid Anagram</a></td></td>
-    <td colspan="2"><a href="https://leetcode.com/problems/two-sum/description/">Two Sum</a></td></td>
-    <td colspan="2"><a href="https://leetcode.com/problems/valid-palindrome/description/">Valid Palindrome</a></td></td>
-    <td colspan="2"><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/">Best Time to Buy and Sell Stock</a></td></td>
-    <td colspan="2"><a href="https://leetcode.com/problems/valid-parentheses/description/">Valid Parentheses</a></td></td>
+    <td colspan="2"><a href="https://leetcode.com/problems/concatenation-of-array/description/">Concatenation of Array</a></td></td>
+    <td colspan="2"><a href="https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/">Replace Elements with Greatest Element on Right Side</a></td></td>
+    <td colspan="2"><a href="https://leetcode.com/problems/is-subsequence/description/">Is Subsequence</a></td></td>
+    <td colspan="2"><a href="https://leetcode.com/problems/length-of-last-word/description/">Length of Last Word</a></td></td>
   </tr>
   <tr>
     <td><a href="">🏂</a></td>
