@@ -1,29 +1,31 @@
 import java.util.*;
 import java.io.*;
 
-public class 14561_week1 {
+public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        int T = Integer.parseInt(br.readLine());
+        StringTokenizer st;
+        StringBuilder sb = new StringBuilder();
+        Long A;
+        int n;
 
-        int M = Integer.parseInt(st.nextToken());
-        int N = Integer.parseInt(st.nextToken());
+        for(int t = 1; t <= T; t++) {
+            st = new StringTokenizer(br.readLine());
+            A = Long.parseLong(st.nextToken());
+            n = Integer.parseInt(st.nextToken());
 
-        boolean[] isPrimeArr = new boolean[N + 1];
-        Arrays.fill(isPrimeArr, true);
-        isPrimeArr[1] = false;
-
-        for(int i = 2; i <= Math.sqrt(N); i++) {
-            if(!isPrimeArr[i]) continue;
-            for(int j = i * i; j <= N; j = j + i) {
-                isPrimeArr[j] = false;
+            String str = Long.toString(A, n);
+            int len = str.length();
+            boolean isPalindrome = true;
+            for(int i = 0; i <= len/2; i++) {
+                if(str.charAt(i) != str.charAt(len - i - 1)) {
+                    isPalindrome = false;
+                    break;
+                }
             }
+            sb.append(isPalindrome ? 1 : 0).append("\n");
         }
-
-        for(int i = M; i <= N; i++) {
-            if(isPrimeArr[i]) {
-                System.out.println(i);
-            }
-        }
+        System.out.print(sb);
     }
 }
