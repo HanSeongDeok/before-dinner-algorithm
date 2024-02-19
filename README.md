@@ -141,7 +141,7 @@
     <td colspan="2"><a href="https://leetcode.com/problems/length-of-last-word/description/">Length of Last Word</a></td></td>
   </tr>
   <tr>
-    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/han/week5-contains_duplicate.py">🏂</a></td>
     <td><a href="">🐣</a></td>
     <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
