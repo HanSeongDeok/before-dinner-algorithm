@@ -118,17 +118,17 @@
     <td colspan="2"><a href="https://www.acmicpc.net/problem/9012">괄호</a></td></td>
   </tr>
   <tr>
-    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_1037.py">🏂</a></td>
     <td><a href="">🐣</a></td>
-    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_14561.py">🏂</a></td>
     <td><a href="">🐣</a></td>
-    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_1929.py">🏂</a></td>
     <td><a href="">🐣</a></td>
-    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_2069.py">🏂</a></td>
     <td><a href="">🐣</a></td>
-    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_2960.py">🏂</a></td>
     <td><a href="">🐣</a></td>
-    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_9093.py">🏂</a></td>
     <td><a href="">🐣</a></td>
   </tr>
  <tr>
