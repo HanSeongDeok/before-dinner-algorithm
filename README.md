@@ -143,7 +143,7 @@
   <tr>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/han/week5-contains_duplicate.py">🏂</a></td>
     <td><a href="">🐣</a></td>
-    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/han/week5-valid_anagram.py">🏂</a></td>
     <td><a href="">🐣</a></td>
     <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
