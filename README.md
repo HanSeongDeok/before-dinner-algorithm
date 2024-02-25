@@ -119,17 +119,17 @@
   </tr>
   <tr>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_1037.py">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/1037_week4.py">🐣</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_2069.py">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week4_2609.py">🐣</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_2960.py">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week4_2960.py">🐣</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_1929.py">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week4_1929.py">🐣</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_14561.py">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week4_14561.py">🐣</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/seongdeok/week4_9093.py">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week4_9012.py">🐣</a></td>
   </tr>
  <tr>
     <td rowspan="2">Week5</td>
@@ -144,14 +144,14 @@
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/han/week5-contains_duplicate.py">🏂</a></td>
     <td><a href="">🐣</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/han/week5-valid_anagram.py">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/chaeeun/week5-valid_anagram.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/chaeeun/week5-concatenation_of_array.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/chaeeun/week5-replace_elements_with_greatest_element_on_right_side.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/chaeeun/week5-concatenation_of_array.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/chaeeun/week5-length_of_last_word.py">🐣</a></td>
   </tr>
 </table>
