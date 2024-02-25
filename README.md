@@ -154,4 +154,27 @@
     <td><a href="">🏂</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/leetcode/chaeeun/week5-length_of_last_word.py">🐣</a></td>
   </tr>
+  <tr>
+    <td rowspan="2">Week6</td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12944">평균 구하기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12937">짝수와 홀수</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/87389">나머지가 1이 되는 수 찾기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12925">문자열을 정수로 바꾸기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12928">약수의 합</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12954">x만큼 간격이 있는 n개의 숫자</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
 </table>
