@@ -165,16 +165,16 @@
   </tr>
   <tr>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12944.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12937.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-87389.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12925.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12928.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12954.py">🐣</a></td>
   </tr>
 </table>
