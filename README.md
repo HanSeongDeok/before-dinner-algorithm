@@ -177,4 +177,27 @@
     <td><a href="">🏂</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12954.py">🐣</a></td>
   </tr>
+  <tr>
+    <td rowspan="2">Week7</td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/1152">단어의 개수</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/1157">단어 공부</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2439">별 찍기</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2562">최댓값</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2577">숫자의 개수</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2675">문자열 반복</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
 </table>
