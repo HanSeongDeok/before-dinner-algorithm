@@ -165,11 +165,34 @@
   </tr>
   <tr>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12944.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12937.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-87389.py">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12925.py">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12928.py">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week6-12954.py">🐣</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Week7</td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/1152">단어의 개수</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/1157">단어 공부</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2439">별 찍기-2</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2562">최댓값</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2577">숫자의 개수</a></td></td>
+    <td colspan="2"><a href="https://www.acmicpc.net/problem/2675">문자열 반복</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week7-1152.py">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week7_1157.py">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week7_2439.py">🐣</a></td>
     <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
     <td><a href="">🏂</a></td>
