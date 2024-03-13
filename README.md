@@ -194,11 +194,11 @@
     <td><a href="">🏂</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week7_2439.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week7_2562.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week7_2577.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/baekjoon/chaeeun/week7_2675.py">🐣</a></td>
   </tr>
   <tr>
     <td rowspan="2">Week8</td>
@@ -211,9 +211,9 @@
   </tr>
   <tr>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week8_12931.py">🐣</a></td>
     <td><a href="">🏂</a></td>
-    <td><a href="">🐣</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week8_12932.py">🐣</a></td>
     <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
     <td><a href="">🏂</a></td>
