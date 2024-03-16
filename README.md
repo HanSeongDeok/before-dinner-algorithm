@@ -215,6 +215,29 @@
     <td><a href="">🏂</a></td>
     <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week8_12932.py">🐣</a></td>
     <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week8_12916.py">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week8_12934.py">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week8_12933.py">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="https://github.com/Before-Dinner/algorithm/blob/main/programmers/chaeeun/week8_12947.py">🐣</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Week9</td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12912">두 정수 사이의 합</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12919">서울에서 김서방 찾기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12943">콜라츠 추측</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12910">나누어 떨어지는 숫자 배열</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12948">핸드폰 번호 가리기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12935">제일 작은 수 제거하기</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
     <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
