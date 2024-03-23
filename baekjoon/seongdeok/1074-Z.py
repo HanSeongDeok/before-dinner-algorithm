@@ -15,14 +15,3 @@ def z(n: int, r: int, c:int ) -> int:
     
 n, r, c = map(int, input().split())
 print(z(n, r, c))
-
-
-
-
-
-
-
-
-
-
-
