@@ -269,4 +269,26 @@
     <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
   </tr>
+  <tr>
+    <td rowspan="2">Week10</td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12903">가운데 글자 가져오기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/77884">약수의 개수와 덧셈</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12917">문자열 내림차순으로 배치하기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/82612">부족한 금액 계산하기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12918">문자열 다루기 기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12950">행렬의 덧셈</a></td></td>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
 </table>
