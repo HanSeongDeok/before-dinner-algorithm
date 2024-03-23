@@ -275,8 +275,30 @@
     <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/77884">약수의 개수와 덧셈</a></td></td>
     <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12917">문자열 내림차순으로 배치하기</a></td></td>
     <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/82612">부족한 금액 계산하기</a></td></td>
-    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12918">문자열 다루기 기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12918">문자열 다루기 기본</a></td></td>
     <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12950">행렬의 덧셈</a></td></td>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Week10</td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12969">직사각형 별찍기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12940">최대공약수와 최소공배수</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12906">같은 숫자는 싫어</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/68935">3진법 뒤집기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12982">예산</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12930">이상한 문자 만들기</a></td></td>
   <tr>
     <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
