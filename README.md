@@ -250,8 +250,8 @@
     <td rowspan="2">Week9</td>
     <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/76501">음양 더하기</a></td></td>
     <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/86051">없는 숫자 더하기</a></td></td>
-    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12948">핸드폰 번호 가리기</a></td></td>
-    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12935">제일 작은 수 제거하기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12903">가운데 글자 가져오기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/77884">약수의 개수와 덧셈</a></td></td>
     <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/70128">내적</a></td></td>
     <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12922">수박수박수박수박수박수?</a></td></td>
   </tr>
