@@ -360,4 +360,52 @@
     <td><a href="">🏂</a></td>
     <td><a href="">🐣</a></td>
   </tr>
+  <tr>
+    <td rowspan="2">Week12</td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/131705">삼총사</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/147355">크기가 작은 부분 문자열</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/86491">최소직사각형</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/81301">숫자 문자열과 영단어</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/142086">가장 가까운 같은 글자</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12915">문자열 내 마음대로 정렬하기</a></td></td>
+</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Week12</td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/68644">두 개 뽑아서 더하기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/134240">푸드 파이트 대회</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/132267">콜라 문제</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/138477">명예의 전당 (1)</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/176963">추억 점수</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/159994">카드 뭉치</a></td></td>
+</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🏂</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
 </table>
