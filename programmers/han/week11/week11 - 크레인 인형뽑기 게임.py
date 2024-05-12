@@ -5,7 +5,7 @@ def solution(board, moves):
         for j in board:
             if(j[i] == 0):
                 continue
-            if(i in board_dict):
+            if(i  in board_dict):
                 board_dict[i].append(j[i])
             else:
                 board_dict[i] = [j[i]]
