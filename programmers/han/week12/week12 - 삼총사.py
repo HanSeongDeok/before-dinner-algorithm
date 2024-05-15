@@ -1,9 +1,9 @@
 from itertools import combinations
 def solution(number):
-    combination_three = combinations(number, 3)
+    combination_three = combination_cutsom(number, 3)
     return sum(1 for arr in combination_three if sum(arr) == 0)
 
-def combinations(arr, r):
+def combination_cutsom(arr, r):
     result = []
     
     def combines(temp, start):
