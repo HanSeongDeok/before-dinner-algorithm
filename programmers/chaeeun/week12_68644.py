@@ -8,3 +8,11 @@ def solution(numbers):
     
     result_list = sorted(result_set)
     return result_list
+
+from itertools import combinations
+
+def solution2(numbers):
+    result_set = {sum(pair) for pair in combinations(numbers, 2)}
+    
+    result_list = sorted(result_set)
+    return result_list
