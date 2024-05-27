@@ -1,7 +1,4 @@
 def solution(cards1, cards2, goal):
-    cards1 = list(cards1)
-    cards2 = list(cards2)
-    
     for word in goal:
         if cards1 and word == cards1[0]: 
             cards1.pop(0)
