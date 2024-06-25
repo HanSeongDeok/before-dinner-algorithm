@@ -454,4 +454,50 @@
     <td><a href="">🧗🏻‍♂️</a></td>
     <td><a href="">🐣</a></td>
   </tr>
+  <tr>
+    <td rowspan="2">Week14</td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/159994">카드 뭉치</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/67256">키패드 누르기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/250121">[PCCE 기출문제] 10번 / 데이터 분석</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/118666">성격 유형 검사하기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/72410">신규 아이디 추천</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/161990">바탕화면 정리</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
+  <tr>
+   <td rowspan="2">Week14</td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/150370">개인정보 수집 유효기간</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/178871">달리기 경주</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/172928">공원 산책</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/92334">신고 결과 받기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/250137">[PCCP 기출문제] 1번 / 붕대 감기</a></td></td>
+    <td colspan="2"><a href="https://school.programmers.co.kr/learn/courses/30/lessons/258712">가장 많이 받은 선물</a></td></td>
+  </tr>
+  <tr>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+    <td><a href="">🧗🏻‍♂️</a></td>
+    <td><a href="">🐣</a></td>
+  </tr>
 </table>
