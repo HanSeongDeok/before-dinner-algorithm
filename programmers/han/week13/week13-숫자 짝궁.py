@@ -37,8 +37,32 @@ def solution2(X, Y):
  
     if(len(result) == 0):
         return '-1'
+    
     if(result[0] == '0'):
         return '0'
               
     return result
  
+print(solution2("100", "123450"))
+
+# practice
+def solution3(X, Y):
+    x = [0] * 10
+    y = [0] * 10
+    result = ''
+    for i in X:
+        x[int(i)] += 1
+    
+    for i in Y:
+        y[int(i)] += 1
+        
+    for i in range(9, -1, -1):
+        result += str(i) * min(x[i], y[i])
+    
+    if(len(result) == 0):
+        return '-1'
+    
+    if(result[:1] == '0'):
+        return '0'
+    
+    return result
