@@ -7,7 +7,7 @@ def solution(bandage, health, attacks):
     for i in range(1, max_time+1):
         if i in attack_dict:
             health -= attack_dict[i]
-            heal_stack = 0
+            heal_stack = 0  # 이거 빼먹음..
             if health <= 0:
                 health = -1
                 break
