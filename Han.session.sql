@@ -1,3 +1,23 @@
+SELECT * FROM food_product
+
+-- UPDATE food_product SET PRICE = 6500 WHERE PRODUCT_ID = "P0020"
+
+-- INSERT INTO food_product VALUES 
+--     ("P0018", "맛있는고추기름", "CD_OL00008", "식용유", 6100),
+--     ("P0019", "맛있는카놀라유", "CD_OL00009", "식용유", 5100),
+--     ("P0020", "맛있는산초유", "CD_OL00010", "식용유", 6100),
+--     ("P0021", "맛있는케첩", "CD_OL00001", "소스", 4500),
+--     ("P0022", "맛있는마요네즈", "CD_OL00002", "소스", 4700);
+
+-- CREATE TABLE IF NOT EXISTS FOOD_PRODUCT(
+--     PRODUCT_ID VARCHAR(10) NOT NULL,
+--     PRODUCT_NAME VARCHAR(50) NOT NULL,
+--     PRODUCT_CD VARCHAR(10),
+--     CATEGORY VARCHAR(10),
+--     PRICE INT,
+--     PRIMARY KEY(PRODUCT_ID)
+-- )
+
 -- CREATE TABLE ANIMAL_INS(
 --     ANIMAL_ID VARCHAR(20) NOT NULL,
 --     ANIMAL_TYPE	VARCHAR(20) NOT NULL,
@@ -31,4 +51,6 @@
 --     ('A563492', 'Dog', '2014-10-24 14:45:00', 'Normal', '*Sam', 'Neutered Male'),
 --     ('A513956', 'Dog', '2017-06-14 11:54:00', 'Normal', '*Sweetie', 'Spayed Female');
 
-SELECT * FROM animal_ins
+-- SELECT * FROM animal_ins
+
+
