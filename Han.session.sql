@@ -1,4 +1,9 @@
-SELECT * FROM food_product
+SELECT * FROM ANIMAL_INS ORDER BY DATETIME DESC 
+
+-- INSERT INTO ANIMAL_INS VALUES 
+--     ("A350276", "Cat", "2017-08-13 13:50:00", "Normal", "Jewel", "Spayed Female"),
+--     ("A350375", "Cat", "2017-03-06 15:01:00", "Normal", "Meo", "Neutered Male"),
+--     ("A368930", "Dog", "2014-06-08 13:20:00", "Normal", NULL, "Spated Female");
 
 -- UPDATE food_product SET PRICE = 6500 WHERE PRODUCT_ID = "P0020"
 
