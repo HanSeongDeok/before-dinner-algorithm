@@ -12,5 +12,21 @@ def solution(people, limit):
         boats += 1
     return boats
     
+    
+    
+ 
+def solution2(people, limit):
+    people = sorted(people, reverse= True)
+    l_p, r_p, result = 0, len(people)-1, 0
+    while(r_p >= l_p):
+        if(people[l_p] + people[r_p] <= limit):
+            r_p -= 1
+        l_p += 1
+        result += 1
+    return result
+ 
+ 
+ 
+    
 
-print(solution([70, 50, 80, 50], 100))
+print(solution2([70, 50, 80, 50], 100))
