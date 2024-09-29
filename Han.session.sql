@@ -1,5 +1,10 @@
 SELECT * FROM ANIMAL_INS ORDER BY DATETIME DESC 
 
+-- INSERT INTO animal_ins VALUES 
+--    ("A349996", "Cat", "2018-01-22 14:32:00", "Normal", "Sugar", "Neutered Male"),
+--    ("A352555", "Dog", "2014-08-08 04:20:00", "Normal", "Harley", "Spayed Female"),
+--    ("A352713", "Cat", "2017-04-13 16:29:00", "Normal", "Gia", "Spayed Female");
+
 -- INSERT INTO ANIMAL_INS VALUES 
 --     ("A350276", "Cat", "2017-08-13 13:50:00", "Normal", "Jewel", "Spayed Female"),
 --     ("A350375", "Cat", "2017-03-06 15:01:00", "Normal", "Meo", "Neutered Male"),
