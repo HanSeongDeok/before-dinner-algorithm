@@ -36,18 +36,20 @@ def solution(arr):
         return arr[0]
     
     a, b = arr[0], arr[1]
-    result = a * b / custom_GCD(a, b)
-    for i in range(2, len(arr)+1):
-        result = int(a * b / custom_GCD(a, b))
+    result = int(a * b / custom_GCD(a, b))
+    for i in range(2, len(arr)):
         a = result
-        b = i  
+        b = arr[i]
+        result = int(a * b / custom_GCD(a, b))
     return result
 
 def custom_GCD(a, b):
-    b, a = max(a,b), min(a,b)
+    #b, a = max(a,b), min(a,b)
     mod = -1
     while(mod != 0):
        mod = int(b % a)
        b = a
        a = mod
     return b
+
+print(solution([2, 6, 8, 14]))
