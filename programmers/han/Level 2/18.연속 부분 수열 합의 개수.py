@@ -1,4 +1,3 @@
-# 시간 오바
 def solution(elements):
     size = len(elements)
     stream_set = set()
