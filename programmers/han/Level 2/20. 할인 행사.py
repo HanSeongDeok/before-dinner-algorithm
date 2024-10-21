@@ -39,6 +39,22 @@ def solution2(want, number, discount):
 
     return answer
 
+# 복습
+def solution3(want, number, discount):
+    answer = 0
+    size = len(discount) - 9
+
+    if size <= 0:
+        return 0
+    
+    for i in range(size):
+        discount_map = dict(zip(want, number))    
+        for j in range(i, i + 10):
+            if discount[j] in discount_map:
+                discount_map[discount[j]] -= 1
+        answer = answer + 1 if all(value == 0 for value in discount_map.values()) else answer
+    return answer
+
 print(solution(["banana", "apple", "rice", "pork", "pot"], 
                [3, 2, 2, 2, 1], 
                ["chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"]))
