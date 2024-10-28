@@ -20,5 +20,13 @@ def solution(n, left, right):
         c = i % n   # 각 열의 인덱스는 n으로 나눈 나머지 + 1과 같지만 행의 패턴이 우선시 된다.
         answer.append(max(r, c) + 1)
     return answer
+ 
+def solution(n, left, right):
+    answer = []
+    for i in range(left, right + 1):
+        m = i % n
+        v = i // n
+        answer.append(max(m, v) + 1)
+    return answer
 
 print(solution(4, 7, 14))
