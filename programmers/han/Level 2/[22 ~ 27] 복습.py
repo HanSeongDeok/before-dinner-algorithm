@@ -28,9 +28,23 @@ print(solution(80, [[80,20],[50,40],[30,10]]))
 
 # 25. 의상 문제 -> KEYWORD: 경우의 수 (Number of Case)
 # CASE 1 모든 경우의 수를 직접 구하는 로직으로 풀어보자
-def solution_test(clothes):
+def solution(clothes):
     clothes_permute = custom_permute(0, clothes, [], [])
-    return clothes_permute
+    result = 0
+    for clothes in clothes_permute:
+        if len(clothes) == 0:
+            continue
+        dupl_check = []
+        isDupl = False
+        for i, catagory in clothes:
+            if catagory not in dupl_check: 
+                dupl_check.append(catagory)
+            else:
+                isDupl = True
+                break
+        if not isDupl:
+            result += 1
+    return result
 
 def custom_permute(index, clothes, current_array, permute_array):
     if index == len(clothes):
@@ -43,9 +57,9 @@ def custom_permute(index, clothes, current_array, permute_array):
     current_array.pop()
     return permute_array
 
-print(solution_test([["yellow_hat", "headgear"], 
-                    ["blue_sunglasses", "eyewear"], 
-                    ["green_turban", "headgear"]]))
+print(solution([["yellow_hat", "headgear"], 
+                ["blue_sunglasses", "eyewear"], 
+                ["green_turban", "headgear"]]))
 
 # CASE 2 경우의 수의 값을 구하여 풀어보자 (공집합이 포함될 수 있음을 유념하자) 
 def solution(clothes):
@@ -59,3 +73,14 @@ def solution(clothes):
     for i in clothes_map.values():
         result *= (i + 1)
     return result - 1
+
+# Custom_Combination
+def custom_combination(array, combination_array, current_array, index, r):
+    if r == len(current_array):
+        combination_array.append(current_array[:])
+        return
+    
+    for i in range(index, len(array)):
+        current_array.append(array[i])
+        custom_combination(array, combination_array, current_array, i + 1, r)
+        current_array.pop()
