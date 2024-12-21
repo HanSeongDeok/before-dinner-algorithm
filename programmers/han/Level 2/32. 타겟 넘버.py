@@ -62,3 +62,18 @@ graph = {
 
 dfs(graph, 'A')  # 출력: A B D E C F
 
+def solution(numbers, target):
+    answer = 0
+    def calulate_dfs(index, value):
+        nonlocal answer
+        if len(numbers) == index:
+            if target == value:
+                answer += 1
+            return
+        
+        calulate_dfs(index + 1, value + numbers[index])
+        calulate_dfs(index + 1, value - numbers[index])
+    calulate_dfs(0, 0)
+    return answer
+
+print(solution([1, 1, 1, 1, 1], 3))
