@@ -9,16 +9,16 @@ def solution(msg):
         cnt = 0
         while(i + cnt < len(msg)):
             cnt += 1
-            if (msg[i:i+cnt] in asciis):
-                if (i+cnt == len(msg)-1):
-                    answer.append(asciis.index(msg[i:i+cnt])+1)        
+            if (msg[i:i+cnt+1] in asciis):
+                if (i == len(msg)-1 or i + cnt == len(msg)):
+                    answer.append(asciis.index(msg[i:i+cnt+1])+1)        
                     break
                 continue
-            answer.append(asciis.index(msg[i:i+cnt-1])+1)
-            asciis.append(msg[i:i+cnt]) 
+            answer.append(asciis.index(msg[i:i+cnt])+1)
+            asciis.append(msg[i:i+cnt+1]) 
             break
-        mani_index = cnt - 2
+        mani_index = cnt - 1
     return answer
 
-#print(solution("KAKAO"))
+print(solution("KAKAO"))
 print(solution("TOBEORNOTTOBEORTOBEORNOT"))
