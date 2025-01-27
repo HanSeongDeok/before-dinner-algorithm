@@ -1,6 +1,7 @@
 def solution(msg):
     answer = []
     asciis = [chr(i) for i in range(65, 91)]
+    # ord == ascii 변환 함수 ordianl position의 약자 
     mani_index = 0
     for i in range(len(msg)):
         if (mani_index != 0):
