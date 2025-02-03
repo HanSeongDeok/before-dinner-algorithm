@@ -15,8 +15,8 @@ def solution_wrong(numbers):
             cnt += 1
     return answer
 
-# 다시 풀어보기
-def solution(numbers):
+# 다시 풀어보기 스택 문제 너무 좋은 문제다.
+def solution_(numbers):
     n = len(numbers)
     answer = [-1] * n 
     stack = []  
@@ -28,6 +28,14 @@ def solution(numbers):
     
     return answer
 
+def solution(numbers):
+    answer = [-1] * len(numbers)
+    stack = []
+    for i in range(len(numbers)):
+        while stack and numbers[stack[-1]] < numbers[i]:
+            answer[stack.pop()] = numbers[i]
+        stack.append(i)
+    return answer
 
 print(solution([2,3,3,5]))
 print(solution([9,1,5,3,6,2]))
