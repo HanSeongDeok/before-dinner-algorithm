@@ -1,4 +1,5 @@
 {
+    "python.defaultInterpreterPath": "python",
     "sqltools.connections": [
         {
             "mysqlOptions": {
