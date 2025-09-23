@@ -9,5 +9,15 @@ def solution (A, B) :
     
     return sum
 
-print(solution([1, 4, 2], [5, 4, 4]	)) 
+# @Day 2
+def solution(A, B):
+    sort_A = sorted(A)
+    sort_reverse_B = sorted(B, reverse=True)
+    sum_AB = 0
+    for a, b in zip(sort_A, sort_reverse_B):
+        sum_AB += a * b
+    return sum_AB
+    
+
+print(solution([1, 4, 2], [5, 4, 4])) 
 print(solution([1,2], [3,4]))

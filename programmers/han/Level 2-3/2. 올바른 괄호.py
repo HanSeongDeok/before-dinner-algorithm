@@ -51,17 +51,28 @@ def solution4(s):
     return len(dq) == 0
 
 
+# @Day 3
+def solution5(s):
+    count = 0
+    for c in s:
+      if c == '(':
+        count += 1
+      elif c == ')':
+        if count == 0:
+            return False
+        count -= 1
+    return count == 0
 
-
-print(solution("()()"))
-print(solution("(())()"))
-print(solution(")()("))
-print(solution("(()("))
-
-print(solution2("()()"))
-print(solution2("(())()"))
-print(solution2(")()("))
-print(solution2("(()("))
+def solution6(s):
+    dq = deque();
+    for c in s:
+        if c == '(':
+            dq.append(c)
+        elif c == ')':
+            if not dq:
+                return False
+            dq.pop()
+    return len(dq) == 0
 
 print(solution3("()()"))
 print(solution3("(())()"))
@@ -72,3 +83,13 @@ print(solution4("()()"))
 print(solution4("(())()"))
 print(solution4(")()("))
 print(solution4("(()("))
+
+print(solution5("()()"))
+print(solution5("(())()"))
+print(solution5(")()("))
+print(solution5("(()("))
+
+print(solution6("()()"))
+print(solution6("(())()"))
+print(solution6(")()("))
+print(solution6("(()("))
