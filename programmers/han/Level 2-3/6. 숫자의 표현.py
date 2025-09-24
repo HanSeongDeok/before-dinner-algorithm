@@ -12,4 +12,20 @@ def solution(n):
             answer += 1
     return answer
 
+
+
+
+
+def solution(n):
+    same_count = 0
+    for i in range(1, n + 1):
+        current = i
+        cnt = 0
+        while cnt < n:
+            cnt += current 
+            current += 1
+        if cnt == n:
+            same_count += 1
+    return same_count
+
 print(solution(15))

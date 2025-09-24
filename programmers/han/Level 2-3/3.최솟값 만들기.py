@@ -19,5 +19,12 @@ def solution(A, B):
     return sum_AB
     
 
+# @Day3 
+def solution(A, B):
+    sort_A = sorted(A)
+    sort_B = sorted(B, reverse=True)
+    return sum(a*b for a, b in zip(sort_A, sort_B))
+
+
 print(solution([1, 4, 2], [5, 4, 4])) 
 print(solution([1,2], [3,4]))

@@ -1,4 +1,5 @@
 # @Day 1
+from shlex import join
 from turtle import Turtle
 
 
@@ -29,5 +30,19 @@ def solution(s):
     return result
 
 
+# @Day 3
+def solution (s):
+    convert_s = []
+    for w in s.split(' '):
+        if w[:1].isdigit():
+            convert_s.append(w[:1] + w[1:].lower())
+        else:
+            convert_s.append(w[:1].upper() + w[1:].lower())
+    return ' '.join(convert_s)
+
+
+
+
+
 print(solution("3people unFollowed me"))
-print(solution("for the last week"))
+print(solution("for the last    week"))
