@@ -43,5 +43,26 @@ def custom_bin(n):
         n //= 2
     return  str(number_bin)
 
+
+def solution(s):
+    zero_count = 0
+    count = 0
+    while s != '1':
+        zero_count += s.count('0')
+        s = s.replace('0','')
+        # s = bin(len(s))[2:]
+        s = custom_bin(len(s))
+        count += 1
+    return [count, zero_count]
+
+def custom_bin(n):
+    number_bin = 0
+    cnt = 1
+    while n > 0:
+        number_bin += n % 2 * cnt
+        cnt *= 10
+        n //= 2
+    return str(number_bin)
+
 print(custom_bin(10))
 print(solution("110010101001"))
