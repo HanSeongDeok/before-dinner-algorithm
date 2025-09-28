@@ -18,5 +18,13 @@ def custom_bin(n):
         n //= 2
     return str(number_bin) 
 
+
+# @ Day 2
+def solution(n):
+    number = bin(n)[2:].count('1')
+    for i in range(n + 1, 1000001):
+        if bin(i)[2:].count('1') == number:
+            return i
+
 print(solution(78))
 print(solution(15))
