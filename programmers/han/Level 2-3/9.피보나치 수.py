@@ -18,5 +18,15 @@ def solution(n):
        first, second = second, first + second
     return second % 1234567
 
+
+# @ Day 2
+def solution(n):
+    result = 1
+    first, second = 1, 1
+    for i in range (2, n):
+        result = first + second
+        first, second = second, result
+    return result % 1234567
+
 print(solution(3))
 print(solution(5))

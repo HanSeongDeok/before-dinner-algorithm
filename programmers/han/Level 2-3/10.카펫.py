@@ -10,6 +10,19 @@ def solution (brown, yellow):
             return [weight, h]
     return []
      
+
+#@ Day 2
+def solution(brown, yellow):
+    total = brown + yellow
+    height = int(math.sqrt(total))
+    for h in range(height, 0, -1):
+        w, r = divmod(total, h)
+        if r == 0 and (w - 2) * (h - 2) == yellow:
+            return [w, h]
+    return []
+
+
+
 print(solution(10, 2))   # [4, 3]
 print(solution(8, 1))    # [3, 3]
 print(solution(24, 24))  # [8, 6]

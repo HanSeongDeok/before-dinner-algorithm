@@ -27,5 +27,20 @@ def solution(people, limit):
 #         answer += 1
 #     return answer 
 
+# @ Day 2
+def solution(people, limit):
+    sort_people = sorted(people, reverse=True)
+    people_dq = deque(sorted(people))
+    count = 0
+    for p in sort_people:
+        if  people_dq: 
+            people_dq.pop()
+        if people_dq and p + people_dq[0] <= limit:
+            people_dq.popleft()
+            continue
+        count += 1
+    return count
+
+
 print(solution([70, 50, 80, 50], 100))
 print(solution([70, 80, 50], 100))
