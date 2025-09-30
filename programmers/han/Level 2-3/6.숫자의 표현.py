@@ -25,9 +25,6 @@ def solution(n):
             same_count += 1
     return same_count
 
-
-
-
 # Day 3
 def solution(n):
     answer = 0
