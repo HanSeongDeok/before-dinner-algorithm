@@ -28,5 +28,25 @@ def solution(n):
         first, second = second, result
     return result % 1234567
 
+
+
+
+
+
+
+
+def solution(n):
+    first, second = 1, 1
+    fibo_nubmer = 1
+    for i in range(2, n):
+        fibo_nubmer = first + second
+        first, second = second, fibo_nubmer
+    return fibo_nubmer % 1234567
+
+
+
+
+
+
 print(solution(3))
 print(solution(5))

@@ -42,5 +42,22 @@ def solution(people, limit):
     return count
 
 
+
+def solution(p, limit):
+    small_p, big_p  = deque(sorted(p)), sorted(p, reverse=True) 
+    result = 0
+    for b in big_p: 
+        if small_p:
+            small_p.pop()
+        if small_p and small_p[0] + b <= limit:
+            small_p.popleft()
+            continue
+        result += 1
+    return result
+
+
+
+
+
 print(solution([70, 50, 80, 50], 100))
 print(solution([70, 80, 50], 100))

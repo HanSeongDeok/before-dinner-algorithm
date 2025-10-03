@@ -21,4 +21,22 @@ def custom_gcd(a, b):
         b = mod
     return a
 
+# @Day 2
+from math import gcd
+def solution(arr):
+    a = arr[0]
+    result = 0
+    for b in arr[1:]:
+        a = a * b // custom_gcd(a, b)
+        result = a
+    return result 
+
+def custom_gcd(a, b):
+    while b:
+        mod = a % b
+        a = b
+        b = mod
+    return a
+
+print(custom_gcd(24, 45))
 print(solution([2,6,8,14]))

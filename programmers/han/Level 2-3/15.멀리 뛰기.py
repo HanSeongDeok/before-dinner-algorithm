@@ -11,5 +11,11 @@ def solution(n):
         n_1, n_2 = n_2, result
     return result % 1234567
 
+
+
+
+
+
+
 print(solution(4))
 print(solution(3))

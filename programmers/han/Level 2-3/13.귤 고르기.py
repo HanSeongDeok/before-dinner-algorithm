@@ -1,4 +1,5 @@
 from collections import Counter
+from unittest import result
 
 
 # 탐욕적 기법 유형
@@ -35,6 +36,28 @@ def solution(k, tangerine):
         cnt += i
         answer += 1
     return answer
+
+
+# @ Day 2 
+from collections import Counter 
+def solution(k, tangerine):
+    box = dict(sorted(Counter(tangerine).items(), key=lambda x: x[1], reverse=True))
+   
+    cnt = 0
+    result = 0
+    
+    for b in box.values():
+        if cnt >= k:
+            break
+        cnt += b
+        result += 1
+    return result
+        
+
+
+
+
+    
 
 print(solution(6, [1, 3, 2, 5, 4, 5, 2, 3])) 
 print(solution(4, [1, 3, 2, 5, 4, 5, 2, 3]))

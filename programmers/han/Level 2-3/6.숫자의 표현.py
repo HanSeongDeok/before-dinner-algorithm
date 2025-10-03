@@ -38,5 +38,21 @@ def solution(n):
             answer += 1
     return answer
 
+# @ Day 4
+def solution(n):
+    result = 0
+    for i in range(1, n + 1):
+        current = i
+        sum_number = 0
+        while sum_number <= n:
+            sum_number += current
+            current += 1
+            if sum_number == n:
+                result += 1
+                break
+    return result
+
+
+
 print(solution(15))
 print(solution(5))

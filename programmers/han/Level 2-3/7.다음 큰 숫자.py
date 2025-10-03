@@ -19,12 +19,35 @@ def custom_bin(n):
     return str(number_bin) 
 
 
-# @ Day 2
+# @ Day2
 def solution(n):
     number = bin(n)[2:].count('1')
     for i in range(n + 1, 1000001):
         if bin(i)[2:].count('1') == number:
             return i
+
+
+# @ Day3 
+def solution(n):
+    compare_number = bin(n)[2:].count('1')
+    for i in range(n+1, 1000000):
+        one_counter = bin(i)[2:].count('1')
+        if compare_number == one_counter:
+            return i
+    return -1
+
+
+def custom_bin(n):
+    bin_n = 0
+    cnt = 1
+    while n:
+        bin_n += n % 2 * cnt
+        cnt *= 10
+        n //= 2
+    return bin_n
+
+
+print(custom_bin(10))
 
 print(solution(78))
 print(solution(15))

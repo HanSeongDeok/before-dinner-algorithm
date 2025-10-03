@@ -11,7 +11,7 @@ def solution(s):
             dq.append(c) 
     return 0 if dq else 1
 
-# @ Day 2
+# @Day 2
 def solution(s):
     dq = deque()
     current = 0
@@ -23,6 +23,24 @@ def solution(s):
         dq.append(s[current])
         current += 1
     return 1 if len(dq) == 0 else 0
+
+
+
+# @Day 3
+from collections import deque
+def solution(s):
+    dq = deque()
+    for c in s:
+        if dq and c == dq[-1]:
+            dq.pop()
+        else:
+            dq.append(c)
+    return 1 if len(dq) == 0 else 0
+
+
+
+
+
 
 
 print(solution('baabaa'))

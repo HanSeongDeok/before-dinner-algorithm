@@ -23,6 +23,19 @@ def solution(brown, yellow):
 
 
 
+
+# @ Day 3
+def solution(brown, yellow):
+    start_h = int((brown + yellow) ** 0.5)
+
+    for h in range(start_h, 0, -1):
+        w, remainder = divmod(brown + yellow, h)
+        if not remainder and (w-2) * (h-2) == yellow:
+            return [w, h] 
+    return []
+    
+
+
 print(solution(10, 2))   # [4, 3]
 print(solution(8, 1))    # [3, 3]
 print(solution(24, 24))  # [8, 6]
