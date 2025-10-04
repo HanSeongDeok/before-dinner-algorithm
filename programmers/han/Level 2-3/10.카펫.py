@@ -24,6 +24,27 @@ def solution(brown, yellow):
 
 
 
+
+
+
+
+from math import sqrt
+def solution(brown, yellow):
+    width = brown + yellow
+    start_height = int(sqrt(width))
+    for h in range(start_height, 0, -1):
+        length = width // h
+        if length * h == width and (length - 2) * (h - 2) == yellow:
+            return [length, h]
+    return []
+        
+
+
+
+
+
+
+
 # @ Day 3
 def solution(brown, yellow):
     start_h = int((brown + yellow) ** 0.5)

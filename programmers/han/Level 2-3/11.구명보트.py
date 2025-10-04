@@ -51,6 +51,16 @@ def solution(p, limit):
             small_p.pop()
         if small_p and small_p[0] + b <= limit:
             small_p.popleft()
+from collections import deque
+def solution(people, limit):
+    sorted_p = deque(sorted(people, reverse=True))
+    compare_p = deque(sorted(sorted(people)))
+    result = 0
+    for p in sorted_p:
+        if compare_p:
+            compare_p.pop()
+        if compare_p and p + compare_p[0] <= limit:
+            compare_p.popleft()
             continue
         result += 1
     return result

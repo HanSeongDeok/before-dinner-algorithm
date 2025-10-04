@@ -29,6 +29,13 @@ def solution(n):
     return result % 1234567
 
 
+def solution(n):
+    f, s = 1, 1
+    fibo = 1
+    for _ in range(3, n+1):
+        fibo = f + s
+        f, s = s, fibo 
+    return fibo % 1234567
 
 
 

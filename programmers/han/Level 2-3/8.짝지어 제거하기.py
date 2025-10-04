@@ -27,6 +27,8 @@ def solution(s):
 
 
 # @Day 3
+
+
 from collections import deque
 def solution(s):
     dq = deque()
@@ -35,6 +37,10 @@ def solution(s):
             dq.pop()
         else:
             dq.append(c)
+        if not dq or dq[-1] != c:
+            dq.append(c)
+        else:
+            dq.pop()
     return 1 if len(dq) == 0 else 0
 
 

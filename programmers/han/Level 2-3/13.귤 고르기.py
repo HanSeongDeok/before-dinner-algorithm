@@ -59,6 +59,22 @@ def solution(k, tangerine):
 
     
 
+
+def solution(n, arr):
+    result = 0
+    box = sorted(Counter(arr).values(), reverse=True)
+
+    number = 0
+
+    for a in box:
+        if number >= n:
+            break
+        number += a
+        result += 1
+        
+    return result
+
 print(solution(6, [1, 3, 2, 5, 4, 5, 2, 3])) 
 print(solution(4, [1, 3, 2, 5, 4, 5, 2, 3]))
 print(solution(2, [1, 1, 1, 1, 2, 2, 2, 3]))
+

@@ -37,6 +37,9 @@ def solution(n):
     return -1
 
 
+
+
+
 def custom_bin(n):
     bin_n = 0
     cnt = 1
@@ -48,6 +51,22 @@ def custom_bin(n):
 
 
 print(custom_bin(10))
+
+    return str(bin_n)
+print(custom_bin(10))
+
+
+def solution(n):
+    result = n
+    len_one = bin(n)[2:].count('1')
+    for i in range(n+1, 1000001):
+        if len_one == bin(i)[2:].count('1'):
+            result = i
+            return result
+    return result
+
+
+
 
 print(solution(78))
 print(solution(15))

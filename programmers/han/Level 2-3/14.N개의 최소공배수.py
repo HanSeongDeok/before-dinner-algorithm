@@ -1,4 +1,4 @@
-from math import gcd
+from math import lcm, gcd
 
 # GCD(최대공약수, Greatest Common Divisor)와 LCM(최소공배수, Least Common Multiple) 유형
 # 최소 공배수 = a x b / 최대공약수 (GCD)
@@ -39,4 +39,26 @@ def custom_gcd(a, b):
     return a
 
 print(custom_gcd(24, 45))
+
+
+
+# 최소공배수 = a x b / GCD
+# 최대공약수 = a와 b를 나눌 수 있는 가장 큰 수 (유클리드 호제법을 통해 나온 수)
+
+def solution(arr):
+    a = arr[0]
+    for i in arr[1:]:
+        a = lcm(a, i)
+    return a
+
+
+
+def solution(arr):
+    result = arr[0]
+    for i in arr[1:]:
+        result = result * i // gcd(result, i)
+    return result 
+
+
+
 print(solution([2,6,8,14]))

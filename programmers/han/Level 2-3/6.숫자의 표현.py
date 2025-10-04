@@ -54,5 +54,19 @@ def solution(n):
 
 
 
+
+def solution(n):
+    result = 0
+    for i in range(1, n+1):
+        current = i
+        cnt = 0
+        while cnt < n:
+            cnt += current
+            current += 1
+        if cnt == n:
+            result += 1
+    return result
+
+
 print(solution(15))
 print(solution(5))
