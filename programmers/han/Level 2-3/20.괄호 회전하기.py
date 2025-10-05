@@ -1,4 +1,5 @@
 from collections import deque
+from unittest import result
 #@ Day 1
 def solution(s):
     dq_s = deque(s)
@@ -50,6 +51,45 @@ def solution(s):
         if isCorrect and not temp_list:
             answer += 1
     return answer
+
+
+
+
+from collections import deque
+def solution(s):
+    dq_s = deque(s) 
+    valid_dict = {
+        "[" : "]",
+        "(" : ")",
+        "{" : "}"
+    }
+    result = 0
+    for i in range(len(s)):
+        temp = deque()
+        isTrue = True
+        for c in dq_s:
+            if not temp and c not in valid_dict.keys():
+                isTrue = False
+                break
+            if c in valid_dict.keys():
+                temp.append(c)
+                continue
+            elif temp and valid_dict[temp.pop()] != c:
+                isTrue = False
+                break
+        dq_s.append(dq_s.popleft())
+        if isTrue and not temp:
+            result += 1
+    return result
+        
+
+
+
+
+
+
+
+
 
 print(solution("[](){}"))
 print(solution("}]()[{"))

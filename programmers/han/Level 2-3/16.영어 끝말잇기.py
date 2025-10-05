@@ -18,9 +18,6 @@ def solution(n, words):
             number += 1
     return [0, 0]
 
-
-
-
 # @ Day 2
 def solution(n, arr):
     cycle, number = 1, 1
