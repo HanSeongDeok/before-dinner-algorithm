@@ -1,4 +1,8 @@
 
+from tempfile import TemporaryDirectory
+from typing import TextIO
+
+
 def solution(k, dungeons):
     from itertools import permutations
     max_cnt = 0
@@ -74,11 +78,6 @@ def solution(k, dungeons):
     result = sorted(result, key=lambda x: len(x), reverse=True)
     return len(result[0])
 
-print(solution(80, [[80,20],[50,40],[30,10]]))  # 8
-print(solution(80, [[80,20],[50,40],[30,10]]))  # 15
-
-
-
 # Combination
 # idx를 이용해 현재 위치 이후의 던전만 탐색 (조합)
 def custom_combination(k, dungeons):
@@ -120,3 +119,22 @@ def custom_permutation(k, dungeons):
 # 예시 테스트
 print(custom_combination(80, [[80,20],[50,40],[30,10]]))  # 8
 print(custom_permutation(80, [[80,20],[50,40],[30,10]]))  # 15
+
+# @Day 2
+def solution(k, dungeons):
+    result = []
+    memo = [0] * len(dungeons)
+    def dfs(temp, k):
+        if temp:
+            result.append(temp[:])
+        for i in range(len(dungeons)):
+            if not memo[i] and k >= dungeons[i][0]:
+                memo[i] = 1
+                temp.append(dungeons[i])
+                dfs(temp, k - dungeons[i][1])
+                temp.pop()
+                memo[i] = 0
+    dfs([], k)
+    return len(max(result, key=len))
+
+print(solution(80, [[80,20],[50,40],[30,10]]))

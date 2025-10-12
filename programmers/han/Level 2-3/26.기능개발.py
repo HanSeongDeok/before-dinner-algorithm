@@ -28,6 +28,7 @@ def solution(progresses, speeds):
     return answer
 
 import math
+from unittest import result
 def solution(progresses, speeds):
     answer = []
     date_list = []
@@ -70,6 +71,35 @@ def solution(progresses, speeds):
     result.append(cnt)
     return result
     
+# @Day 2
+def solution(progresses, speeds):
+    remainder_day = []
+    for p, s in zip(progresses, speeds):
+        v, r = divmod(100 - p, s) 
+        remainder_day.append(v if not r else v + 1)
+
+    result = []
+    cnt = 1
+    prev = remainder_day[0]
+    for i in range(1, len(remainder_day)):
+        if prev >= remainder_day[i]:
+            cnt += 1
+        else:
+            result.append(cnt)
+            cnt = 1
+            prev = remainder_day[i]
+    result.append(cnt)
+    return result 
+        
+
+
+
+
+
+
+
+
+
 
 
 

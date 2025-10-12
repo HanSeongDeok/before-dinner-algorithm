@@ -1,4 +1,5 @@
 from collections import defaultdict
+from unittest import result
 def solution(clothes):
     clothes_dict = defaultdict(int)
     combi_n = 1
@@ -23,6 +24,34 @@ def custom_combination(arr, r):
     return result
 
 custom_combination([1,2,3,4],2)
+
+
+def solution(clothes):
+    result = []
+    def dfs(temp, idx):
+        if temp:
+            result.append(temp[:])
+        for i in range(idx, len(clothes)):
+            if clothes[i][1] not in temp:
+                temp.append(clothes[i][1])
+                dfs(temp, i + 1)
+                temp.pop()
+    dfs([], 0)
+    return len(result)
+
+# @Day 2
+from collections import defaultdict
+def solution(clothes):
+    clothes_dict = defaultdict(int)
+    for v, sort in clothes:
+        clothes_dict[sort] += 1
+
+    result = 1
+    for v in clothes_dict.values():
+        result *= (v + 1)
+
+    return result - 1
+
 
 # 예시 테스트
 print(solution([["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]]))  # 5

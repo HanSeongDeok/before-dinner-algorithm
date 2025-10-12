@@ -1,8 +1,6 @@
 
 # @Day 1 
 # 2차원 행렬 유형  
-import enum
-
 
 def solution(arr1, arr2):
     answer = []
@@ -15,9 +13,6 @@ def solution(arr1, arr2):
     return answer
                 
 
-
-
-
 def solution(arr1, arr2):
     answer = []
     for a1 in arr1:
@@ -28,6 +23,17 @@ def solution(arr1, arr2):
         answer.append(temp)
     return answer
 
+
+#@Day 2
+def solution(arr1, arr2):
+    result = []
+    for ar1 in arr1:
+        temp = [0] * len(arr2[0])
+        for i, a1 in enumerate(ar1):
+            for j, a2 in enumerate(arr2[i]):
+                temp[j] += a1 * a2
+        result.append(temp[:])
+    return result
 
 
 
