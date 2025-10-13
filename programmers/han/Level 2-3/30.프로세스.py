@@ -39,6 +39,29 @@ def solution(priorities, location):
     return result
 
 
+
+# @ Day 3
+def solution(arr, n):
+    result = 1
+    dq = deque([i, v] for i, v in enumerate(arr))
+    while dq:
+        p = dq.popleft()
+        isTrue = True
+        for i in dq:
+            if p[1] < i[1]:
+                dq.append(p)
+                isTrue = False
+                break
+        if not isTrue:
+            continue 
+        if n == p[0]:
+            return result
+        else:
+            result += 1
+    return result
+
+
+
 print(solution([2, 1, 3, 2], 2))  # 1
 print(solution([1, 1, 9, 1, 1, 1], 0))  # 5
 
