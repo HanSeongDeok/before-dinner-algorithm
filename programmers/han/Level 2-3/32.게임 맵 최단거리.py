@@ -1,4 +1,5 @@
 from collections import deque
+from turtle import distance
 
 # 이 문제는 "BFS(너비 우선 탐색)"을 이용한 최단 거리(Shortest Path) 유형 문제입니다.
 def solution(maps):
@@ -54,8 +55,39 @@ def solution(maps):
                 map_dq.append([next_x, next_y, distance + 1])
     return -1
 
+def solution(maps):
+    yl = len(maps)
+    xl = len(maps[0])
+
+    visited = [[xl] * xl for i in range(yl)]
+    visited[0][0] = 1
+
+    x = [0, 0, -1, 1]
+    y = [-1, 1, 0, 0]
+
+    dq = deque([[0, 0, 1]])
+    while dq:
+        nx, ny, distance = dq.popleft()
+        if nx + 1 == xl and ny + 1 == yl:
+            return distance
+        for i in range(4):
+            next_y = ny + y[i]
+            next_x = nx + x[i]
+            if 0 <= nx + x[i] < xl and 0 <= ny + y[i] < yl\
+                and not visited[next_y][next_x] and maps[next_y][next_x]:
+                    dq.append([next_x, next_y, distance + 1])
+                    visited[next_y][next_x] = True
+    return -1
+
 print(solution([[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,1],[0,0,0,0,1]]))  # 11
 print(solution([[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,0],[0,0,0,0,1]]))  # -1
+
+
+
+
+
+
+
 
 
 
@@ -74,18 +106,19 @@ def bfs(graph, start):
                 queue.append(i)
                 visited[i] = True
 
-
 def bfs(graph, start):
     dq = deque([start])
     visited = [0] * len(graph)
-    result = set([start])
+    visited[start] = 1
+    result = [start]
     while dq:
-        v = dq.popleft()
-        for i in graph[v]:
-            if not visited[i]:
-                dq.append(i)
-                visited[i] = 1
-                result.add(i)
+        idx = dq.popleft()
+        for node in graph[idx]:
+            if not visited[node]:
+                visited[node] = 1
+                dq.append(node)
+            if node not in result:
+                result.append(node)
     return result
 
 graph = [
