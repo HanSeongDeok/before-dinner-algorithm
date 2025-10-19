@@ -79,8 +79,43 @@ def solution(maps):
                     visited[next_y][next_x] = True
     return -1
 
+
+
+
+# @Day 2
+## visited memo를 리스트나 큐로 활용하면 성능 fail이 발생한다.
+from collections import deque
+def solution(maps):
+    n, m = len(maps), len(maps[0])
+
+    x_list = [0, 0, -1, 1]
+    y_list = [-1, 1, 0, 0]
+
+    visited = [[0] * m for _ in range(n)]
+    visited[0][0] = 1
+    dq = deque([[1, 1, 1]])
+
+    while dq:
+        y, x, dist = dq.popleft()
+        if y == n and x == m:
+            return dist
+        for i in range(4):
+            ny = y_list[i] + y
+            nx = x_list[i] + x
+            if 1 <= ny <= n and 1 <= nx <= m and visited[ny-1][nx-1]:
+                continue
+            if 1 <= ny <= n and 1 <= nx <= m and maps[ny-1][nx-1]:
+                visited[ny-1][nx-1] = 1
+                dq.append([ny, nx, dist+1])
+    return -1
+
 print(solution([[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,1],[0,0,0,0,1]]))  # 11
 print(solution([[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,0],[0,0,0,0,1]]))  # -1
+
+
+
+
+
 
 
 

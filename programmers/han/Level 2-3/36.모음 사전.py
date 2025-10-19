@@ -31,6 +31,7 @@ print(solution_v2("AAAAE"))
 
 # @Day 1
 from collections import deque
+from operator import indexOf
 def solution(word):
     words = ["A", "E", "I", "O", "U"]
     dq = deque()
@@ -44,4 +45,30 @@ def solution(word):
     dfs('')
     return dq.index(word) + 1
 
-print(solution("AAAAE"))
+
+
+
+
+from collections import deque
+def solution(word):
+    alpha_list = [
+         'A', 'E', 'I', 'O', 'U'
+    ]
+    dq = deque()
+    def dfs(temp):
+        if temp:
+            dq.append(temp[-1])
+        if len(temp) == 5:
+            return
+        for a in alpha_list:
+            temp.append(temp[-1] + a if temp else a)
+            dfs(temp)
+            temp.pop()
+    dfs([])
+    return dq.index(word) + 1
+
+
+print(solution("AAAAE"))   # 6
+print(solution("AAAE"))    # 10
+print(solution("I"))       # 1563
+print(solution("EIO"))     # 1189

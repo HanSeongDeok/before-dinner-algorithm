@@ -1,4 +1,5 @@
 from collections import Counter
+from itertools import count
 def solution(str1, str2):
     def make_bigrams(s):
         s = s.lower()
@@ -55,6 +56,41 @@ def create_str_arr(s):
 
 
 
+def solution(str1, str2):
+    def create_str_arr(s):
+        temp = []
+        for i in range(len(s)-1):
+            if s[i:i+2].isalpha():
+                temp.append(s[i:i+2].upper())
+        return temp 
+    
+    str1_arr = create_str_arr(str1)
+    str2_arr = create_str_arr(str2)
+    
+    def create_intersection_value(arr1, arr2):
+        arr2_copy = arr2[:]
+        cnt = 0
+        for a1 in arr1:
+            if a1 in arr2_copy:
+                cnt += 1
+                arr2_copy.remove(a1)
+        return cnt
+ 
+    intersection = create_intersection_value(str1_arr, str2_arr)
+    union = len(str1_arr) + len(str2_arr) - intersection
+
+    ## arr의 Counter로 &는 교집합 |는 합집합을 구할 수 있다.  
+    a = Counter(str1_arr) & Counter(str2_arr)
+    b = Counter(str1_arr) | Counter(str2_arr)
+
+    if not union:
+        return 65536
+    return int((intersection / union) * 65536)
+
+
+
+
+    
 print(solution("FRANCE", "french"))       # 16384
 print(solution("handshake", "shake hands"))   # 65536
 print(solution("aa1+aa2", "AAAA12"))      # 43690

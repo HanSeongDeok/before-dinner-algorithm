@@ -1,4 +1,5 @@
 from collections import Counter
+from unittest import result
 
 # @Day 1
 # 그리디/슬라이딩 윈도우 유형 문제제
@@ -29,6 +30,24 @@ def solution(topping):
         if len(compare_set) == len(topping_cntr):
             result += 1
     return result
+
+
+
+from collections import Counter
+def solution(topping):
+    topping_cntr = Counter(topping)
+    topping_set = set()
+    result = 0
+    for t in topping:
+        topping_set.add(t)
+        topping_cntr[t] -= 1
+        if not topping_cntr[t]:
+            del topping_cntr[t]
+        if len(topping_set) == len(topping_cntr.keys()):
+            result += 1
+    return result
+        
+
 
 # Test cases
 print(solution([1,2,1,3,1,4,1,2]))  # 2
