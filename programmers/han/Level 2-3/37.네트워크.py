@@ -55,6 +55,30 @@ def solution_bfs(n, computers):
     return answer
 
 
+
+
+
+# @ Day2
+def solution(n, computers):
+    memo = [0] * n
+    result = 0
+
+    def dfs(idx):
+        memo[idx] = 1
+        for j in range(n):
+            if not memo[j] and computers[idx][j]:
+                dfs(j)
+
+    for i in range(n):
+        if not memo[i]:
+            dfs(i)
+            result += 1
+    return result
+
+
+
+
+
 # 예시 테스트
 print(solution(3, [[1,1,0],[1,1,0],[0,0,1]])) # 2
 print(solution(3, [[1,1,0],[1,1,1],[0,1,1]])) # 1
