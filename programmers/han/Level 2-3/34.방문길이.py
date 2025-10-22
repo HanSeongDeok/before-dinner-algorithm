@@ -16,6 +16,31 @@ def solution(dirs):
             if prev[-2:] + step not in visited and step + prev[-2:] not in visited:
                 answer += 1
             visited.append(prev[-2:] + step)
+    return answer
+
+
+
+
+
+def solution(s):
+    s_dict = {
+        "U" : [0,1],
+        "D" : [0,-1],
+        "R" : [1,0],
+        "L" : [-1,0],
+    }
+
+    visited = deque([[0, 0]])
+    answer = 0
+    for c in s:
+        lstep = visited[-1][-2:]
+        nx = s_dict[c][0] + lstep[0]
+        ny = s_dict[c][1] + lstep[1]
+        if -5 <= nx <= 5 and -5 <= ny <= 5:
+            if lstep + [nx, ny] not in visited and [nx, ny] + lstep not in visited:
+                answer += 1
+            visited.append(lstep + [nx, ny])
+    return answer
 
 def solution(dirs):
     xy_dict = {

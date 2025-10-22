@@ -66,24 +66,36 @@ def solution(n, k):
 
 
 
+# @ Day 2
+from math import sqrt
+def solution(n, k):
+    def convert_k_n(n, k):
+        k_n_str = ''
+        while n:
+            k_n_str = str(n % k) + k_n_str
+            n //= k
+        return k_n_str
+    
+    k_n_arr = convert_k_n(n, k).split('0')
+    result = 0
+
+    def isPrimeCheck(n):
+        if n < 2:
+            return False
+        for i in range(2, int(sqrt(n))+1):
+            if n % 2 == 0:
+                return False
+        return True 
+
+    for n in k_n_arr:
+        if n and isPrimeCheck(int(n)):
+            result += 1
+    return result
+
+
 
 print(solution(437674, 3))    # Expected output: 3
 print(solution(110011, 10))   # Expected output: 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -35,5 +35,32 @@ def solution(numbers, target):
     dfs(0, 0)
     return result
 
+
+
+
+
+def solution(arr, n):
+    dq = deque()
+    def dfs(temp, idx):
+        if len(temp) == len(arr):
+            dq.append(sum(temp[:]))
+            return
+        temp.append(arr[idx])
+        dfs(temp, idx + 1)
+        temp.pop()
+
+        temp.append(arr[idx] * -1)
+        dfs(temp, idx + 1)
+        temp.pop()
+
+    dfs([], 0)
+    result = 0
+    for d in dq:
+        if d == n:
+            result += 1
+    return result
+
+
+
 print(solution([1, 1, 1, 1, 1], 3))
 print(solution([4, 1, 2, 1], 4))  # 2

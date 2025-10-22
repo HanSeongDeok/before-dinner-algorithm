@@ -23,14 +23,11 @@ def solution(s):
     return f'{min_n} {max_n}'
 
 
-
-
-
-
-
-
-
-
+# @Day 5
+def solution(s):
+    max_v = max(map(int, s.split(' ')))
+    min_v = min(map(int, s.split(' ')))
+    return f'{min_v} {max_v}' 
 
 
 print(solution('1 2 3 4'))

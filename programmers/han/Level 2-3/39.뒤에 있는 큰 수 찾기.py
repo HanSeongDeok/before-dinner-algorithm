@@ -38,6 +38,21 @@ def solution(numbers):
     return result    
 
 
+
+
+#@Day2
+from collections import deque
+def solution(arr): 
+    result = [-1] * len(arr)
+    dq = deque()
+    for i, v in enumerate(arr):
+        while dq and arr[dq[-1]] < v:
+            idx = dq.pop()
+            result[idx] = v
+        dq.append(i)
+    return result
+
+
 # 예시 테스트
 print(solution([2, 3, 3, 5]))   # [3, 5, 5, -1]
 print(solution([9, 1, 5, 3, 6, 2])) # [-1, 5, 6, 6, -1, -1]

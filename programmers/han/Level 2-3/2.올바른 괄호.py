@@ -86,11 +86,6 @@ def solution(s):
             dq.pop()
     return len(dq) == 0
 
-
-
-
-
-
 def solution(s):
     result = 0
     for c in s:
@@ -102,9 +97,17 @@ def solution(s):
             result -= 1
     return result == 0
 
-
-
-
+# @Day 5
+def solution(s):
+    dq = deque()
+    for c in s:
+        if c == '(':
+            dq.append(c)
+        elif c == ')':
+            if not dq:
+                return False
+            dq.pop()
+    return len(dq) == 0
 
 print(solution("()()"))
 print(solution("(())()"))
