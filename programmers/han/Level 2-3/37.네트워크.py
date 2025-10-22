@@ -78,6 +78,23 @@ def solution(n, computers):
 
 
 
+# @Day 3
+def solution(k, arr):
+    result = 0
+    visited = []
+
+    def dfs(idx):
+        visited.append(idx)
+        for j in range(k):
+            if j not in visited and arr[idx][j]:
+                dfs(j)
+
+    for i in range(k):
+        if i not in visited:
+            dfs(i)
+            result += 1
+    return result
+
 
 # 예시 테스트
 print(solution(3, [[1,1,0],[1,1,0],[0,0,1]])) # 2

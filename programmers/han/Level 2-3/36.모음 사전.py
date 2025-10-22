@@ -45,10 +45,6 @@ def solution(word):
     dfs('')
     return dq.index(word) + 1
 
-
-
-
-
 from collections import deque
 def solution(word):
     alpha_list = [
@@ -66,6 +62,23 @@ def solution(word):
             temp.pop()
     dfs([])
     return dq.index(word) + 1
+
+
+# @Day 3
+from collections import deque
+def solution(word):
+    dq = deque()
+    w_list = [
+         'A', 'E', 'I', 'O', 'U'
+    ]
+    def dfs(ws):
+        dq.append(ws)
+        if len(ws) == len(w_list):
+            return 
+        for w in w_list:
+            dfs(ws + w)
+    dfs('')
+    return dq.index(word)
 
 
 print(solution("AAAAE"))   # 6

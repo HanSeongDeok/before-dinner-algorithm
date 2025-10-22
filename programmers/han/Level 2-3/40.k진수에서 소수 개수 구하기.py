@@ -65,7 +65,6 @@ def solution(n, k):
 
 
 
-
 # @ Day 2
 from math import sqrt
 def solution(n, k):
