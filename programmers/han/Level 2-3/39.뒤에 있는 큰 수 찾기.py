@@ -50,6 +50,14 @@ def solution(arr):
             idx = dq.pop()
             result[idx] = v
         dq.append(i)
+#@Day 2
+def solution(numbers):
+    result = [-1] * len(numbers)
+    stack = []
+    for i, n in enumerate(numbers):
+        while stack and numbers[stack[-1]] < n:
+            result[stack.pop()] = n 
+        stack.append(i)
     return result
 
 

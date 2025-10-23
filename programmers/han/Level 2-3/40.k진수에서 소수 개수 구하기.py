@@ -1,4 +1,5 @@
 from math import sqrt
+from unittest import result
 
 def solution(n, k):
     # 1. n을 k진수로 변환
@@ -90,6 +91,35 @@ def solution(n, k):
         if n and isPrimeCheck(int(n)):
             result += 1
     return result
+
+
+from math import sqrt
+def solution(n, k):
+    def create_n_k(n, k):
+        n_k_str = ""
+        while n:
+            n_k_str = str(n % k) + n_k_str
+            n //= k
+        return n_k_str
+    
+    n_k_arr = create_n_k(n, k).split('0')
+    
+    def isPrime(num):
+        if num < 2:
+            return False
+        for i in range(2, int(sqrt(num))+1):
+            if num % i == 0:
+                return False
+        return True
+
+    result = 0
+    for s in n_k_arr:
+        if s and isPrime(int(s)):
+            result += 1
+    return result
+
+
+    
 
 
 
