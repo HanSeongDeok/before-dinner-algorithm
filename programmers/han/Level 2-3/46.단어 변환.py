@@ -25,9 +25,6 @@ def solution(begin, target, words):
     return 0
 
 
-
-
-
 from collections import deque
 def solution(begin, target, words):
     result = 0

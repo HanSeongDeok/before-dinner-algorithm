@@ -1,5 +1,6 @@
 
 import heapq
+from unittest import result
 
 def solution(works, n):
     # 최대 힙을 사용하므로 음수로 바꿔줌
@@ -11,9 +12,6 @@ def solution(works, n):
         max_work = heapq.heappop(works)
         heapq.heappush(works, max_work + 1)  # max_work는 음수, 1 더하면 실제로 1 깎임
     return sum(w ** 2 for w in works)
-
-
-
 
 
 import heapq as hq
@@ -30,9 +28,28 @@ def solution(works, n):
 
     return sum(int(pow(w, 2)) for w in works)
 
+
+# @Day 2
+import heapq as hq
+def solution(works, n):
+    works = [-w for w in works]
+    hq.heapify(works)
+
+    for _ in range(n):
+        w = hq.heappop(works)
+        if w == 0:
+            break
+        hq.heappush(works, w + 1)
+
+    return sum(s ** 2 for s in works)
+
 print(solution([4,3,3], 4))  # 12
 print(solution([2,1,2], 1))  # 6
 print(solution([1,1], 3))    # 0
+
+
+
+#------------------------------------------------------------------------------------
 
 
 # DFS로 모든 경우의 수를 탐색할 수 있는데, 각 작업별로 하나씩 깎는 선택지를 n번 동안 모두 조합해야 함.

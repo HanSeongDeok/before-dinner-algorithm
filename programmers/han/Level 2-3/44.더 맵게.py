@@ -1,9 +1,5 @@
 
-from cgitb import reset
 from collections import deque
-from textwrap import dedent
-from this import d
-from unittest import result
 
 def solution(scoville, K):
     q = deque(sorted(scoville))
