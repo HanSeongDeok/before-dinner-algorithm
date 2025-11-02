@@ -19,10 +19,6 @@ def solution(m, n, puddles):
 
     return dp[n][m]
 
-
-
-
-
 # @Day 1
 def solution(m, n, puddles):
     dp = [[0] * (m + 1) for _ in range(n + 1)]

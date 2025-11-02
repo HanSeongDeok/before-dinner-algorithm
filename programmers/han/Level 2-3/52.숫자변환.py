@@ -15,8 +15,6 @@ def solution(x, y, n):
                 queue.append((next_num, cnt + 1))
     return -1
 
-
-
 # @Day 1
 from collections import deque
 def solution(x, y, n):
