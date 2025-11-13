@@ -44,5 +44,23 @@ def solution (s):
 
 
 
+def solution(s):
+    words = s.split(' ')
+    result = []
+    for w in words:
+        if not w:
+            result.append(w)
+            continue
+        if w and w[:1].isdigit():
+            result.append(w.lower())
+        else:
+            result.append(w[:1].upper() + w[1:].lower())
+    return ' '.join(result)
+
+
+def solution(s):
+    return ' '.join(w.capitalize() if w else '' for w in s.split(' '))
+
+
 print(solution("3people unFollowed me"))
-print(solution("for the last    week"))
+print(solution("for the last  week"))

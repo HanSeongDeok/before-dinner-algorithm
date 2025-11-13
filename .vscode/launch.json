@@ -2,6 +2,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Solution62",
+            "request": "launch",
+            "mainClass": "solution.Solution62",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution63",
+            "request": "launch",
+            "mainClass": "solution.Solution63",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Programmers",
+            "request": "launch",
+            "mainClass": "Programmers",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
             "name": "Python: Current File",
             "type": "debugpy",
             "request": "launch",

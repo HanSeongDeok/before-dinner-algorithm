@@ -15,7 +15,20 @@ def solution3(s):
     min_s = min(map(int, s.split()))
     max_s = max(map(int, s.split()))
     return f'{min_s} {max_s}'  
- 
+
+# @Day4
+def solution(s):
+    min_n = min(map(int, s.split()))
+    max_n = max(map(int, s.split()))
+    return f'{min_n} {max_n}'
+
+
+# @Day 5
+def solution(s):
+    max_v = max(map(int, s.split(' ')))
+    min_v = min(map(int, s.split(' ')))
+    return f'{min_v} {max_v}' 
+
 
 print(solution('1 2 3 4'))
 print(solution('-1 -2 -3 -4'))
