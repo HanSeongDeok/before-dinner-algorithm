@@ -3,6 +3,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution68",
+            "request": "launch",
+            "mainClass": "solution.Solution68",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution67",
+            "request": "launch",
+            "mainClass": "solution.Solution67",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution66",
+            "request": "launch",
+            "mainClass": "solution.Solution66",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution65",
+            "request": "launch",
+            "mainClass": "solution.Solution65",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution64",
+            "request": "launch",
+            "mainClass": "solution.Solution64",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution62",
             "request": "launch",
             "mainClass": "solution.Solution62",

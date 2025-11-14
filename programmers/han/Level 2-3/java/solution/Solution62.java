@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * 62. 두 큐 합 같게 만들기
+ * 알고리즘 유형: 투 포인터, 큐, 시뮬레이션
  */
 public class Solution62 {
     /**
