@@ -6,6 +6,20 @@
             "name": "Solution62",
             "request": "launch",
             "mainClass": "solution.Solution62",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution63",
+            "request": "launch",
+            "mainClass": "solution.Solution63",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution62",
+            "request": "launch",
+            "mainClass": "solution.Solution62",
             "projectName": "before-dinner-algorithm_d9517b0a"
         },
         {
