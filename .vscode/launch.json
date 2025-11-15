@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution74",
+            "request": "launch",
+            "mainClass": "solution.autoever.dp.Solution74",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution73",
             "request": "launch",
             "mainClass": "solution.autoever.binarysearch.Solution73",
