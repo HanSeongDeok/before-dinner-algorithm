@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution46",
+            "request": "launch",
+            "mainClass": "solution.autoever.graph.Solution46",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution32",
+            "request": "launch",
+            "mainClass": "solution.autoever.graph.Solution32",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "SolutionExample",
+            "request": "launch",
+            "mainClass": "solution.autoever.SolutionExample",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution72",
             "request": "launch",
             "mainClass": "solution.Solution72",
