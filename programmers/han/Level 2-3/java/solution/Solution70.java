@@ -4,7 +4,7 @@ package solution;
  * 알고리즘 유형: DP(동적 프로그래밍)
  */
 public class Solution70 {
-    
+
     public int solution(int sticker[]) {
         int [] dp = new int[sticker.length];
         if (sticker.length == 1) return sticker[0];
@@ -31,7 +31,7 @@ public class Solution70 {
 
     public static void main(String[] args) {
         Solution70 s70 = new Solution70();
-        System.out.println(s70.solution2(
+        System.out.println(s70.solution(
             new int[]{14, 6, 5, 11, 3, 9, 2, 10}));
     }
 }

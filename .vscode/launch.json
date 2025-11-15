@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution66",
+            "request": "launch",
+            "mainClass": "solution.autoever.implementation.Solution66",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution27",
+            "request": "launch",
+            "mainClass": "solution.autoever.implimentation.Solution27",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution46",
             "request": "launch",
             "mainClass": "solution.autoever.graph.Solution46",

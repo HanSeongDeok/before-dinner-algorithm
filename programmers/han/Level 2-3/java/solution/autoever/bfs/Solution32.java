@@ -1,4 +1,4 @@
-package solution.autoever.graph;
+package solution.autoever.bfs;
 
 import java.util.*;
 
