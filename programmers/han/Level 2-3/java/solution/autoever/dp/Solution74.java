@@ -7,6 +7,11 @@ import java.util.Arrays;
  * 알고리즘 유형: 동적 계획법(DP)
  */
 public class Solution74 {
+    /**
+     * @Day 1
+     * @param triangle
+     * @return
+     */
     public int solution(int[][] triangle) {
         int n = triangle.length;
         int[][] dp = new int[n][n];
@@ -28,7 +33,11 @@ public class Solution74 {
         return answer;
     }
 
-
+    /**
+     * @Day 2
+     * @param triangle
+     * @return
+     */
     public int solution2(int[][] triangle) {
         int answer = Integer.MIN_VALUE;
         int len = triangle.length;
@@ -49,6 +58,32 @@ public class Solution74 {
             answer = Math.max(value, answer);
         }
         // System.out.println(answer);
+        return answer;
+    }
+
+    /**
+     * @Day3
+     * @param triangle
+     * @return
+     */
+    public int solution3(int[][] triangle) {
+        int answer = 0;
+        int len = triangle.length;
+        int[][] dp = new int[len][len];
+        dp[0][0] = triangle[0][0];
+        
+        for (int i = 1; i < len; i++) {
+            dp[i][0] = dp[i-1][0] + triangle[i][0];
+            for (int j = 1; j < i; j++) {
+                dp[i][j] = Math.max(dp[i-1][j-1], dp[i-1][j]) + triangle[i][j];
+            }
+            dp[i][i] = dp[i-1][i-1] + triangle[i][i];
+        }
+
+        for (int value : dp[len-1]) {
+            answer = Math.max(value, answer);
+        }
+
         return answer;
     }
 

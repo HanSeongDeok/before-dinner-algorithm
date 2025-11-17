@@ -35,7 +35,12 @@ public class Solution73 {
         return answer;
     }
 
-
+    /**
+     * @ Day2
+     * @param n
+     * @param times
+     * @return
+     */
     public long solution2(int n, int[] times) {
         long left = 1;
         long right = (long) times[times.length - 1] * n;
@@ -60,10 +65,39 @@ public class Solution73 {
         return answer;
     }
 
+    /**
+     * @ Day3
+     * @param n
+     * @param times
+     * @return
+     */
+    public long solution3(int n, int[] times) {
+        long answer = 0;
+        long left = 1;
+        long right = (long) times[times.length-1] * n;
+
+        while(left <= right) {
+            long mid = (long)(left + right) / 2;
+
+            long totalN = 0;
+            for (int time: times) {
+                totalN += mid / time; 
+            }
+
+            if (n <= totalN) {
+                answer = mid;
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return answer;
+    }
+
     public static void main(String[] args) {
         Solution73 s73 = new Solution73();
         int[] times = { 7, 10 };
-        long answer = s73.solution(6, times);
+        long answer = s73.solution3(6, times);
         System.out.println(answer); // 28
     }
 }

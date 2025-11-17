@@ -29,7 +29,6 @@ public class Solution74 {
     private void dfs(String airplane, List<String> path, String[][] tickets) {
         if (path.size() == tickets.length+1) {
             List<String>paths = path.stream().collect(Collectors.toList());
-            // System.out.println(paths.toString());
             answer.add(paths);
             return;
         }
@@ -43,6 +42,36 @@ public class Solution74 {
             }
         }
     } 
+
+    List<List<String>> answer2 = new ArrayList<>();
+    boolean[] memo2;
+    public String[] solution2(String[][] tickets) {
+        memo2 = new boolean[tickets.length];
+        List<String> path = new ArrayList<>();
+        path.add("ICN");
+
+        Arrays.sort(tickets, (a, b) -> a[0].equals(b[0]) ? a[1].compareTo(b[1]) : a[0].compareTo(b[0]));
+        dfs2("ICN", path, tickets);
+        return answer2.get(0).stream().toArray(String[]::new);
+    }
+
+    private void dfs2(String start, List<String> path, String[][] tickets) {
+        if (path.size() == tickets.length+1) {
+            answer2.add(new ArrayList<>(path));
+            return ;
+        }
+
+        for (int i =0; i < tickets.length; i++) {
+            if (!memo2[i] && tickets[i][0].equals(start)) {
+                memo2[i] = true;
+                path.add(tickets[i][1]);
+                dfs2(tickets[i][1], path, tickets);
+                memo2[i] = false;
+                path.remove(path.size()-1);
+            }
+        }
+    }
+
 
     public static void main(String[] args) {
         Solution74 s = new Solution74();
