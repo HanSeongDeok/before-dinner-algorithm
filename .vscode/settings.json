@@ -1,19 +1,7 @@
 {
     "python.defaultInterpreterPath": "python",
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "Han",
-            "database": "programmers",
-            "username": "han",
-            "connectionTimeout": 30
-        }
-    ]
+    "java.project.sourcePaths": [
+        "programmers/han/Level 2-3/java",
+        "baekjoon/han/java"
+    ],
 }

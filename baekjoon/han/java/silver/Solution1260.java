@@ -5,66 +5,70 @@ import java.util.*;
 
 /**
  * 1260. DFS와 BFS
+ * 
+ * 유형: DFS, BFS 
  */
 public class Solution1260 {
-    List<List<Integer>> graphList = new ArrayList<>();
-    public void solution(int N, int M, int V, BufferedReader br) throws IOException{ 
-        for (int i = 0; i <= N; i++) {
-            graphList.add(new ArrayList<>());
+
+    List<List<Integer>> graphLists = new ArrayList<>();
+    boolean[] memo;
+
+    public void solution(int N, int M, int V, BufferedReader br)throws IOException {
+        for (int i=0; i <= N; i++) {
+            graphLists.add(new ArrayList<>());
         }
 
-        for (int i=0; i <M; i++) {
+        for (int i=0; i < M; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int idx = Integer.parseInt(st.nextToken());
-            int value = Integer.parseInt(st.nextToken());
-            graphList.get(idx).add(value);
-            graphList.get(value).add(idx);
+            int start = Integer.parseInt(st.nextToken());
+            int end = Integer.parseInt(st.nextToken());
+            graphLists.get(start).add(end);
+            graphLists.get(end).add(start);
         }
-        
-        for (List<Integer> list : graphList) {
+
+        for (List<Integer> list : graphLists) {
             list.sort(Comparator.naturalOrder());
         }
-
-        boolean[] memo = new boolean[N+1];
+        memo = new boolean[N+1];
         memo[V] = true;
-        System.out.println(dfs(V, new StringBuilder(), memo)); 
-        System.out.println(bfs(V, new StringBuilder(), new boolean[N+1])); 
+        System.out.println(dfs(V, memo, new StringBuilder()));
+    
+        memo = new boolean[N+1];
+        memo[V] = true;
+        System.out.println(bfs(V, memo, new StringBuilder()));
     }
 
-    private String dfs(int V, StringBuilder sb, boolean[] memo) {
-        sb.append(V).append(" ");
-        for (int idx : graphList.get(V)) {
-            if (!memo[idx]) {
-                memo[idx] = true;
-                dfs(idx, sb, memo);
+    private String dfs(int V, boolean[] memo, StringBuilder br) {
+        br.append(V).append(" ");
+        for (int end : graphLists.get(V)) {
+            if (!memo[end]) {
+                memo[end] = true;
+                dfs(end, memo, br);
             }
         }
-        return sb.toString();
+        return br.toString();
     }
-
-    private String bfs(int V, StringBuilder sb, boolean[] memo) {
-        Deque<Integer> dq = new ArrayDeque<Integer>();
+    
+    private String bfs(int V, boolean[] memo, StringBuilder br) {
+        Deque<Integer> dq = new ArrayDeque<>();
         dq.offer(V);
-        memo[V] = true;
-        
         while (!dq.isEmpty()) {
-            int idx = dq.poll();
-            sb.append(idx).append(" ");
-
-            for (int i : graphList.get(idx)){
-                if (!memo[i]) {
-                    memo[i] = true;
-                    dq.offer(i);
+            int start = dq.poll();
+            br.append(start).append(" ");
+            for (int end : graphLists.get(start)) {
+                if (!memo[end]) {
+                    memo[end] = true;
+                    dq.offer(end);
                 }
             }
         }
-        return sb.toString();
+        return br.toString();
     }
 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        
+
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
         int V = Integer.parseInt(st.nextToken());

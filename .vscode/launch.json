@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution73",
+            "request": "launch",
+            "mainClass": "solution.gpt.dfs_bfs.Solution73",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution32",
+            "request": "launch",
+            "mainClass": "solution.gpt.dfs_bfs.Solution32",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution37",
+            "request": "launch",
+            "mainClass": "solution.gpt.Solution37",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution33",
+            "request": "launch",
+            "mainClass": "solution.gpt.Solution33",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution1260",
             "request": "launch",
             "mainClass": "baekjoon.han.java.silver.Solution1260",
