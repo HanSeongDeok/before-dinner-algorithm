@@ -5,56 +5,73 @@ import java.util.*;
  * 73. 아이템 줍기
  */
 public class Solution73 {
-    // 아이템 줍기 - 외곽만 따라 최단거리로 이동 (BFS)
+    /**
+     * @Day 1
+     * @param rectangle
+     * @param characterX
+     * @param characterY
+     * @param itemX
+     * @param itemY
+     * @return
+     */
     public int solution(int[][] rectangle, int characterX, int characterY, int itemX, int itemY) {
-        int MAX = 10; // 범위 제한(좌표 0~50)
-        int[][] board = new int[MAX][MAX];
-        boolean[][] visit = new boolean[MAX][MAX];
+        int answer = 0;
+        int[][] map =  new int[102][102];
 
-        // Step 1: 모든 사각형 내부 칠하고, 테두리는 1(이동 가능)로 표기
-        // board[y][x] 형태: y가 행(row), x가 열(column)
-        for (int[] rect : rectangle) {
-            int x1 = rect[0], y1 = rect[1], x2 = rect[2], y2 = rect[3];
+        for (int[] rec : rectangle) {
+            int x1 = rec[0] * 2, x2 = rec[2] * 2, y1 = rec[1] * 2, y2 = rec[3] * 2;
             for (int y = y1; y <= y2; y++) {
                 for (int x = x1; x <= x2; x++) {
-                    board[y][x] = 1;
+                    map[y][x] = 1;
                 }
             }
         }
-        // Step 2: 내부(테두리 아님) 0으로 변경
-        for (int[] rect : rectangle) {
-            int x1 = rect[0] + 1, y1 = rect[1] + 1, x2 = rect[2] - 1, y2 = rect[3] - 1;
-            for (int y = y1; y <= y2; y++) {
-                for (int x = x1; x <= x2; x++) {
-                    board[y][x] = 0;
+        
+        for (int[] rec : rectangle) {
+            int x1 = rec[0] * 2, x2 = rec[2] * 2, y1 = rec[1] * 2, y2 = rec[3] * 2;
+            for (int y = y1+1; y <= y2-1; y++) {
+                for (int x = x1+1; x <= x2-1; x++) {
+                    map[y][x] = 0;
                 }
             }
         }
 
-        int[] dx = {1, -1, 0, 0}; // 오른쪽, 왼쪽, (x 변화 없음), (x 변화 없음)
-        int[] dy = {0, 0, 1, -1}; // (y 변화 없음), (y 변화 없음), 아래, 위
-        // Step 3: BFS 시작
-        Queue<int[]> q = new ArrayDeque<>();
-        int startX = characterX, startY = characterY;
-        q.offer(new int[]{startX, startY, 0});
-        visit[startY][startX] = true;
+        // for (int i = map.length-1; i >= 0; i--) {
+        //     System.out.println(Arrays.toString(map[i]));
+        // }
 
-        while (!q.isEmpty()) {
-            int[] cur = q.poll();
-            int cx = cur[0], cy = cur[1], cnt = cur[2];
-            if (cx == itemX && cy == itemY) {
-                return cnt;
+        int[] mapY = {1, -1, 0, 0};
+        int[] mapX = {0, 0, 1, -1};
+
+        boolean[][] memo = new boolean[102][102];
+        memo[characterY * 2][characterX * 2] = true;
+        Deque<int[]> dq = new ArrayDeque<>();
+        dq.offer(new int[]{characterY * 2, characterX * 2, 1});
+
+        while (!dq.isEmpty()) {
+            int[] infos = dq.poll();  
+            int curY = infos[0], curX = infos[1], dist = infos[2];
+
+            if (curY == itemY * 2 && curX == itemX * 2) {
+                answer = dist / 2;
+                break;
             }
-            for (int i = 0; i < 4; i++) {
-                int nx = cx + dx[i], ny = cy + dy[i];
-                if (nx >= 0 && nx < MAX && ny >= 0 && ny < MAX && !visit[ny][nx] && board[ny][nx] == 1) {
-                    visit[ny][nx] = true;
-                    q.offer(new int[]{nx, ny, cnt + 1});
+            
+            for (int i=0; i < 4; i++) {
+                int nextY = curY + mapY[i];
+                int nextX = curX + mapX[i];
+                if (-1 < nextY && nextY < 102 && -1 < nextX && nextX < 102 &&
+                    !memo[nextY][nextX] && map[nextY][nextX] == 1) {
+                        memo[nextY][nextX] = true;
+                        dq.offer(new int[]{nextY, nextX, dist+1});
                 }
             }
         }
-        return 0;
+        
+        // System.out.println(answer);
+        return answer;
     }
+
     public static void main(String[] args) {
         Solution73 s73 = new Solution73();
         int[][][] rectangles = {
@@ -71,7 +88,7 @@ public class Solution73 {
         int[] expected = {17, 11, 9, 15, 10};
 
         for (int t = 0; t < rectangles.length; t++) {
-            int result = s73.solution(rectangles[t], characterX[t], characterY[t], itemX[t], itemY[t]);
+            int result = s73.solution2(rectangles[t], characterX[t], characterY[t], itemX[t], itemY[t]);
             System.out.println("Test case " + (t+1) + " result: " + result + " / expected: " + expected[t]);
         }
     }
