@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution76",
+            "request": "launch",
+            "mainClass": "solution.gpt.implementation.Solution76",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution74",
             "request": "launch",
             "mainClass": "solution.gpt.brute_force.Solution74",
