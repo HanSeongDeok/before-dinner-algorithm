@@ -3,7 +3,7 @@ package solution.gpt.implementation;
 import java.util.*;
 
 /**
- * 76. 크레인 뽑기
+ * 76. 인형 뽑기
  */
 public class Solution76 {
     /**

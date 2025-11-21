@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution77",
+            "request": "launch",
+            "mainClass": "solution.gpt.binary_search.Solution77",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution75",
             "request": "launch",
             "mainClass": "solution.gpt.implementation.Solution75",

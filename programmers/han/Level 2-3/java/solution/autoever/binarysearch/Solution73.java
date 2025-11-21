@@ -18,7 +18,7 @@ public class Solution73 {
         long answer = right;
 
         while (left <= right) {
-            long mid = (left + right) / 2;
+            long mid = (long)(left + right) / 2;
             long cnt = 0;
 
             for (int time : times) {
