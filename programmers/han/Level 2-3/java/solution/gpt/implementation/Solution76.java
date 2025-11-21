@@ -2,7 +2,16 @@ package solution.gpt.implementation;
 
 import java.util.*;
 
+/**
+ * 76. 크레인 뽑기
+ */
 public class Solution76 {
+    /**
+     * @Day 1
+     * @param board
+     * @param moves
+     * @return
+     */
     public int solution(int[][] board, int[] moves) {
         int answer = 0;
         Map<Integer, Deque<Integer>> boardMap = new HashMap<>();
@@ -13,11 +22,6 @@ public class Solution76 {
                 if (doll == 0) continue;
                 boardMap.computeIfAbsent(x+1, ArrayDeque::new).offer(doll);
             }   
-        }
-
-        int cnt = 1;
-        for (Deque<Integer> b : boardMap.values()) {
-            System.out.println(cnt++ + ": " + b.toString());
         }
 
         Deque<Integer> box = new ArrayDeque<>();
@@ -32,7 +36,6 @@ public class Solution76 {
                 answer+=2;
             }
         }
-        System.out.println(answer);
         return answer;
     }
 
