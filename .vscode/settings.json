@@ -2,6 +2,8 @@
     "python.defaultInterpreterPath": "python",
     "java.project.sourcePaths": [
         "programmers/han/Level 2-3/java",
-        "baekjoon/han/java"
+        "baekjoon/han/java",
+        "programmers/han/gpt",
+        "programmers/han/autoever"
     ],
 }

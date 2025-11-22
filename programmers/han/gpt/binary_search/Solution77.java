@@ -2,6 +2,7 @@ package solution.gpt.binary_search;
 
 /**
  * 77. 징검다리 건너기
+ * 
  */
 public class Solution77 {
     // 징검다리 건너기 문제 풀이 (이진 탐색)
@@ -34,6 +35,14 @@ public class Solution77 {
 
     /**
      * @Day 1
+     * 
+     * 판단 방법 요약
+     * 문제 목표 확인: 최대값인지 최소값인지
+     * 조건 해석: 각 분기에서 mid가 답의 후보인지 확인
+     * 패턴 적용:
+     * 최대값 찾기: 조건 만족 시 answer = mid + left = mid + 1
+     *최소값 찾기: 조건 불만족 시 answer = mid + right = mid - 1
+     * 
      * @param stones
      * @param k
      * @return
@@ -52,11 +61,11 @@ public class Solution77 {
                     cnt = 0;
                 }
             }
-            if (cnt >= k) {
-                right = mid - 1;
-            } else {
+            if (cnt < k) {
                 answer = mid;
                 left = mid +  1;
+            } else {   
+                right = mid - 1;
             }
         }
         return (int)answer;
