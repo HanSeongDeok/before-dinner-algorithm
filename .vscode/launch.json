@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution1182",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.Solution1182",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution15649",
+            "request": "launch",
+            "mainClass": "brute_force.Solution15649",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution14888",
+            "request": "launch",
+            "mainClass": "brute_force.Solution14888",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution2667",
             "request": "launch",
             "mainClass": "solution.gpt.dfs_bfs.baekjoon.Solution2667"
