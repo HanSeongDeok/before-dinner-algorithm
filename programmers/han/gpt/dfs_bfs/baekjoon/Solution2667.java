@@ -25,14 +25,9 @@ public class Solution2667 {
             }
         }
 
-        // ========== [단계 1] 입력 데이터 검증 ==========
-        // ✅ 확인: 2차원 배열이 제대로 파싱되었는지
-        // ✅ 확인 지점: 입력 파싱 직후, 알고리즘 로직 전
-        System.out.println("[DEBUG] === 입력 데이터 확인 ===");
         for (int[] b : box) {
             System.out.println("[DEBUG] " + Arrays.toString(b));    
         }
-        System.out.println("[DEBUG] ======================\n");
         
         Deque<int[]> dq = new ArrayDeque<>();
         boolean[][] memo = new boolean[N][N];
@@ -43,15 +38,11 @@ public class Solution2667 {
             for (int m=0; m < N; m++) {
                 if (!memo[n][m] && box[n][m] == 1) {
                     complexCount++;
-                    System.out.println("[DEBUG] 단지 " + complexCount + " 시작: (" + n + ", " + m + ")");
                     
                     memo[n][m] = true;
                     dq.offer(new int[]{n, m});
                     int complexSize = bfs(dq, box, memo);
                     answer.add(complexSize);
-                    
-                    // ✅ 확인: 각 단지의 크기가 올바른지
-                    System.out.println("[DEBUG] 단지 " + complexCount + " 크기: " + complexSize + "\n");
                 }
             }
         }
@@ -71,15 +62,9 @@ public class Solution2667 {
             int[] info = dq.poll();
             int curN = info[0], curM = info[1];
             
-            // ✅ 확인: 현재 방문하는 좌표 (너무 많이 출력되면 주석 처리)
-            //System.out.println("[DEBUG-BFS] 현재 방문: (" + curN + ", " + curM + "), 현재 단지 크기: " + maxValue);
-
             for (int i=0; i < 4; i++) {
                 int nextN = curN + mapN[i];
                 int nextM = curM + mapM[i];
-                
-                // ✅ 확인: 경계 체크와 조건 확인 (디버깅 시 유용)
-                //System.out.println("[DEBUG-BFS] 다음 좌표 확인: (" + nextN + ", " + nextM + ")");
                 
                 if (-1 < nextN && nextN < box.length && -1 < nextM && nextM < box.length &&
                     !memo[nextN][nextM] && box[nextN][nextM] == 1) {
@@ -87,7 +72,6 @@ public class Solution2667 {
                         dq.offer(new int[]{nextN, nextM});
                         maxValue += 1;
                         
-                        // ✅ 확인: 새로운 집을 발견했을 때
                         System.out.println("[DEBUG-BFS] 새로운 집 발견: (" + nextN + ", " + nextM + "), 단지 크기: " + maxValue);
                 } 
             }
