@@ -1,4 +1,3 @@
-package solution.autoever;
 
 /**
 * - 오토에버 테스트 문제

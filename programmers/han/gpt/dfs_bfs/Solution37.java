@@ -1,4 +1,4 @@
-package solution.gpt.dfs_bfs;
+package dfs_bfs;
 
 /**
  * 37. 네트워크

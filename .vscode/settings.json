@@ -3,7 +3,9 @@
     "java.project.sourcePaths": [
         "programmers/han/Level 2-3/java",
         "baekjoon/han/java",
+        "baekjoon/chaeeun",
         "programmers/han/gpt",
-        "programmers/han/autoever"
+        "programmers/han/autoever",
+        "softeer/chaeeun"
     ],
 }

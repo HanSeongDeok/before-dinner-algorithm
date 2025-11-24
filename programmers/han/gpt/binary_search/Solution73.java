@@ -1,4 +1,4 @@
-package solution.gpt.binary_search;
+package binary_search;
 
 /**
  * 73. 입국 심사

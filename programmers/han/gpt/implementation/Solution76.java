@@ -1,4 +1,4 @@
-package solution.gpt.implementation;
+package implementation;
 
 import java.util.*;
 

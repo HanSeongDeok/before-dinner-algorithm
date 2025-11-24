@@ -1,4 +1,4 @@
-package solution.gpt.dfs_bfs;
+package dfs_bfs;
 
 import java.util.*;
 /**
@@ -88,7 +88,7 @@ public class Solution73 {
         int[] expected = {17, 11, 9, 15, 10};
 
         for (int t = 0; t < rectangles.length; t++) {
-            int result = s73.solution2(rectangles[t], characterX[t], characterY[t], itemX[t], itemY[t]);
+            int result = s73.solution(rectangles[t], characterX[t], characterY[t], itemX[t], itemY[t]);
             System.out.println("Test case " + (t+1) + " result: " + result + " / expected: " + expected[t]);
         }
     }

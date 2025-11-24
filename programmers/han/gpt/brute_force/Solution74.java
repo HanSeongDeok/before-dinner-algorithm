@@ -1,4 +1,4 @@
-package solution.gpt.brute_force;
+package brute_force;
 
 import java.util.ArrayList;
 import java.util.Arrays;

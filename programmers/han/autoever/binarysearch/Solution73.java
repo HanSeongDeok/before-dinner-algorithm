@@ -1,4 +1,4 @@
-package solution.autoever.binarysearch;
+package binarysearch;
 
 /**
  * 73. 입국 심사

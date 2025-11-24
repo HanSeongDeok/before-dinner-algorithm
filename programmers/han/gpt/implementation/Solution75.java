@@ -1,4 +1,4 @@
-package solution.gpt.implementation;
+package implementation;
 
 /**
  * 75. 문자열 압축

@@ -1,4 +1,4 @@
-package solution.autoever.dfs;
+package dfs;
 
 import java.util.*;
 import java.util.stream.Collectors;

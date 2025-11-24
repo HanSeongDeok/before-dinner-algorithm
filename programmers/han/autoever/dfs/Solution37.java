@@ -1,4 +1,4 @@
-package solution.autoever.dfs;
+package dfs;
 
 /**
  * 37. 네트워크

@@ -1,4 +1,4 @@
-package solution.autoever.bfs;
+package bfs;
 import java.util.*;
 
 /**
