@@ -1,4 +1,4 @@
-package baekjoon.han.java.silver;
+package dfs_bfs.baekjoon.bfs;
 
 import java.io.*;
 import java.util.*;

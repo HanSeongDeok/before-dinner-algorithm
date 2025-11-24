@@ -1,4 +1,4 @@
-package solution.gpt.dfs_bfs.baekjoon;
+package dfs_bfs.baekjoon.bfs;
 
 /**
  * BAEKJOON 

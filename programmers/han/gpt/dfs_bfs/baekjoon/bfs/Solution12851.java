@@ -1,13 +1,18 @@
-package dfs_bfs.baekjoon;
+package dfs_bfs.baekjoon.bfs;
 
 import java.io.*;
 import java.util.*;
 
 /**
  * BAEKJOON
- * 13549 숨바꼭질 3
+ * 숨바꼭질 2
+ * 
+ * 주의 사항: 
+ * int[] memo - 방문 기록 등은 int[]의 두 번째 원소를 포함해 시간마다 체크해야 함 (int[] 사용 필수)
+ * boolean[] memo - 최소시간은 굳이 직접 체크하면서 저장하지 않아도, 큐에 담긴 순서 자체가 BFS 특성상 최단 시간 도달을 보장함
  */
-public class Solution13549 {
+public class Solution12851 {
+    
     static int answer = 0;
     static int count = 0;
     public static void main(String[] args) throws IOException {
@@ -39,20 +44,15 @@ public class Solution13549 {
             }
             for (int i=0; i < 3; i++) {
                 int nextValue = operator(i, curValue);
-                int sec = (i == 2) ? second : second + 1; 
-                if (-1 < nextValue && nextValue < 100001 && memo[nextValue] > sec) {
-                    memo[nextValue] = sec;
-                    if (i == 2) {
-                        dq.offerFirst(new int[] {nextValue, sec});
-                    } else {
-                        dq.offer(new int[] {nextValue, sec});
-                    }
+                if (-1 < nextValue && nextValue < 100001 && memo[nextValue] >= second+1) {
+                    memo[nextValue] = second+1;
+                    dq.offer(new int[] {nextValue, second+1});
                 }
             }
         }
 
         System.out.println(answer);
-        // System.out.println(count);
+        System.out.println(count);
     }
     private static int operator(int idx, int value) {
         if (idx == 0) return value + 1;
