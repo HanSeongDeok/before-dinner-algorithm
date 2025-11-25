@@ -1,4 +1,4 @@
-package solution.autoever.dp;
+package dp;
 
 import java.util.Arrays;
 

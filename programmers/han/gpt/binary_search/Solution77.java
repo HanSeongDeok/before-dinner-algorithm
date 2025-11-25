@@ -1,4 +1,4 @@
-package solution.gpt.binary_search;
+package binary_search;
 
 /**
  * 77. 징검다리 건너기
