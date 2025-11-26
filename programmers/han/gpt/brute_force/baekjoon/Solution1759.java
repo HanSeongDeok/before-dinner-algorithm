@@ -3,6 +3,9 @@ package brute_force.baekjoon;
 import java.io.*;
 import java.util.*;
 
+/**
+ * BAEKJOON 암호 만들기
+ */
 public class Solution1759 {
     static int L;
     static int C;
