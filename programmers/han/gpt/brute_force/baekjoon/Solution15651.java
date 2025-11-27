@@ -3,6 +3,10 @@ package brute_force.baekjoon;
 import java.io.*;
 import java.util.*;
 
+/**
+ * BAEKJOON
+ * 15651. N과 M (3)
+ */
 public class Solution15651 {
     static int N; 
     static int M;
