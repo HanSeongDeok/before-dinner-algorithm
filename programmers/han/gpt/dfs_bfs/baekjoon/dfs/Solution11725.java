@@ -19,17 +19,15 @@ public class Solution11725 {
         state = new boolean[N+1];
         answer = new int[N+1];
 
-        for (int i = 1; i <= N; i++) {
-            graphMap.put(i, new ArrayList<>());
-        }
-
         for (int i = 1; i < N; i++) {
             st = new StringTokenizer(br.readLine());
             int parent = Integer.parseInt(st.nextToken());
             int node = Integer.parseInt(st.nextToken());
 
-            graphMap.get(parent).add(node);
-            graphMap.get(node).add(parent);
+            // 이거 메서드 레퍼런스로 구현 시 초기 list 할당량이 parent, node 즉 k 만큼 넘어간다..
+            //@@ 메모리 초과가 발생함으로 주의해야 한다. k -> new ArrayList<>()로 변경해야한다.
+            graphMap.computeIfAbsent(parent, ArrayList::new).add(node);
+            graphMap.computeIfAbsent(node, ArrayList::new).add(parent);
         }
 
         dfs(1);
