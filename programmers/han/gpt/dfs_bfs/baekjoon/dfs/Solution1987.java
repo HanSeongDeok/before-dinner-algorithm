@@ -28,11 +28,11 @@ public class Solution1987 {
             }
         }
 
-        for(String[] b : box) {
-            System.out.println(Arrays.toString(b));
-        }
+        // for(String[] b : box) {
+        //     System.out.println(Arrays.toString(b));
+        // }
 
-        System.out.println(stateMap.toString());
+        // System.out.println(stateMap.toString());
         // stateMap.put(box[0][0], true);
         dfs(0, 0, 1);
         System.out.println(answer);
@@ -52,12 +52,3 @@ public class Solution1987 {
         }
     }
 }
-
-// 3 6
-// HFDFFB
-// AJHGDH
-// DGAGEH
-
-// 2 4
-// CAAB
-// ADCB
