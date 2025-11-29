@@ -58,10 +58,9 @@ public class Solution4963 {
                     }
                 } 
             }
-            sb.append(answer).append("\n");
-        }
         System.out.println(sb.toString());
     }
+}
 
     private static void dfs(int curH, int curW) {
         for (int i = 0; i < 8; i++) {
