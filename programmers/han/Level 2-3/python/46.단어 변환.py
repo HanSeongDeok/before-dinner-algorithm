@@ -3,6 +3,7 @@
 # 각 단어마다 인접 단어(한 글자만 다른 경우)를 찾는 데 O(nm)
 # 모든 단어를 방문하며 BFS를 진행하므로 전체 시간복잡도는 O(n^2 * m)
 
+#@Day 1
 from collections import deque
 def solution(begin, target, words):
     if target not in words:
@@ -24,7 +25,7 @@ def solution(begin, target, words):
                 queue.append((w, cnt + 1))
     return 0
 
-
+#@Day 2
 from collections import deque
 def solution(begin, target, words):
     result = 0

@@ -3,6 +3,359 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution1182",
+            "request": "launch",
+            "mainClass": "repeat.brute_force.Solution1182",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+            "name": "Solution1759",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.Solution1759",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution14889",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.Solution14889",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution15650",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.Solution15650",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1303",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.dfs.Solution1303",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11724",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.dfs.Solution11724",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2178",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.Solution2178",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution13549",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.Solution13549",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution12851",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.Solution12851",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1697",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.Solution1697",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1012",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.Solution1012",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1182",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.Solution1182",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution15649",
+            "request": "launch",
+            "mainClass": "brute_force.Solution15649",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution14888",
+            "request": "launch",
+            "mainClass": "brute_force.Solution14888",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2667",
+            "request": "launch",
+            "mainClass": "solution.gpt.dfs_bfs.baekjoon.Solution2667"
+        },
+        {
+            "type": "java",
+            "name": "Solution2667",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.Solution2667",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2667",
+            "request": "launch",
+            "mainClass": "Solution2667",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2667",
+            "request": "launch",
+            "mainClass": "solution.gpt.dfs_bfs.Solution2667",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution77",
+            "request": "launch",
+            "mainClass": "solution.gpt.binary_search.Solution77",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution75",
+            "request": "launch",
+            "mainClass": "solution.gpt.implementation.Solution75",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution76",
+            "request": "launch",
+            "mainClass": "solution.gpt.implementation.Solution76",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution74",
+            "request": "launch",
+            "mainClass": "solution.gpt.brute_force.Solution74",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution73",
+            "request": "launch",
+            "mainClass": "solution.gpt.dfs_bfs.Solution73",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution32",
+            "request": "launch",
+            "mainClass": "solution.gpt.dfs_bfs.Solution32",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution37",
+            "request": "launch",
+            "mainClass": "solution.gpt.Solution37",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution33",
+            "request": "launch",
+            "mainClass": "solution.gpt.Solution33",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1260",
+            "request": "launch",
+            "mainClass": "baekjoon.han.java.silver.Solution1260",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1000",
+            "request": "launch",
+            "mainClass": "baekjoon.han.basic.Solution1000",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1001",
+            "request": "launch",
+            "mainClass": "baekjoon.han.basic.Solution1001",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution46",
+            "request": "launch",
+            "mainClass": "solution.autoever.bfs.Solution46",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution32",
+            "request": "launch",
+            "mainClass": "solution.autoever.bfs.Solution32",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution37",
+            "request": "launch",
+            "mainClass": "solution.autoever.dfs.Solution37",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution74",
+            "request": "launch",
+            "mainClass": "solution.autoever.dfs.Solution74",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution74",
+            "request": "launch",
+            "mainClass": "solution.autoever.dp.Solution74",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution73",
+            "request": "launch",
+            "mainClass": "solution.autoever.binarysearch.Solution73",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution66",
+            "request": "launch",
+            "mainClass": "solution.autoever.implementation.Solution66",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution27",
+            "request": "launch",
+            "mainClass": "solution.autoever.implimentation.Solution27",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution46",
+            "request": "launch",
+            "mainClass": "solution.autoever.graph.Solution46",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution32",
+            "request": "launch",
+            "mainClass": "solution.autoever.graph.Solution32",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "SolutionExample",
+            "request": "launch",
+            "mainClass": "solution.autoever.SolutionExample",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution72",
+            "request": "launch",
+            "mainClass": "solution.Solution72",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution71",
+            "request": "launch",
+            "mainClass": "solution.Solution71",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution70",
+            "request": "launch",
+            "mainClass": "solution.Solution70",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution69",
+            "request": "launch",
+            "mainClass": "solution.Solution69",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution68",
+            "request": "launch",
+            "mainClass": "solution.Solution68",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution67",
+            "request": "launch",
+            "mainClass": "solution.Solution67",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution66",
+            "request": "launch",
+            "mainClass": "solution.Solution66",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution65",
+            "request": "launch",
+            "mainClass": "solution.Solution65",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution64",
+            "request": "launch",
+            "mainClass": "solution.Solution64",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution62",
+            "request": "launch",
+            "mainClass": "solution.Solution62",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution63",
+            "request": "launch",
+            "mainClass": "solution.Solution63",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
             "name": "Solution62",
             "request": "launch",
             "mainClass": "solution.Solution62",
