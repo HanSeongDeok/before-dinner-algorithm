@@ -2,6 +2,11 @@ package dp.baekjoon;
 
 import java.util.*;
 import java.io.*;
+
+/**
+ * BAEKJOON
+ * 2579. 계단 오르기
+ */
 public class Solution2579 {
     static int N, answer;
     static int[] box, memo;
