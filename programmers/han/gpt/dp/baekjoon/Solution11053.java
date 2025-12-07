@@ -5,9 +5,11 @@ import java.util.*;
 
 /**
  * BAEKJOON
- * 11053. 가장 긴 증가하는 부분 수열
+ * 11053. 가장 긴 증가하는 부분 수열 (LIS)
  */
 public class Solution11053 {
+   
+   
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
