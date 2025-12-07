@@ -3,17 +3,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Solution1182",
-            "request": "launch",
-            "mainClass": "repeat.brute_force.Solution1182",
-            "projectName": "before-dinner-algorithm_3b4aef90"
-            "name": "Solution1759",
-            "request": "launch",
-            "mainClass": "brute_force.baekjoon.Solution1759",
-            "projectName": "before-dinner-algorithm_d9517b0a"
-        },
-        {
-            "type": "java",
             "name": "Solution14889",
             "request": "launch",
             "mainClass": "brute_force.baekjoon.Solution14889",
