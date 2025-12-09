@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution15657",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.Solution15657",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution1182",
             "request": "launch",
             "mainClass": "repeat.brute_force.Solution1182",
