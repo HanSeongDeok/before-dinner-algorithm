@@ -1,4 +1,4 @@
-package brute_force.baekjoon.repeat;
+package repeat.brute_force;
 
 import java.io.*;
 import java.util.*;

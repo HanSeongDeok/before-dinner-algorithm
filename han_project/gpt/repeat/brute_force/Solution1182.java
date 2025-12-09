@@ -3,47 +3,49 @@ package repeat.brute_force;
 import java.io.*;
 import java.util.*;
 
+/**
+ * BAEKJOON 1182. 부분수열의 합
+ * <다시 풀기>
+ */
 public class Solution1182 {
     static int answer = 0;
-    static int N = -1;
-    static int S = -1;
+    static int N, S;
     static int[] numbers;
     public static void main(String[] args) throws IOException{
-        //5 0
-        //-7 -3 -2 5 8
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
         S = Integer.parseInt(st.nextToken());
 
-        st = new StringTokenizer(br.readLine());
         numbers = new int[N];
+
+        st = new StringTokenizer(br.readLine());
         for (int i=0; i< N; i++) {
             numbers[i] = Integer.parseInt(st.nextToken());
         }
-        // System.out.println("[DEBUG]: " + Arrays.toString(numbers));
-        dfs(0, 0);
 
-        if (S == 0) {
-            System.out.println(answer - 1);
-            return;
-        }
-        System.out.println(answer);
-        
+        dfs2(0, 0);
+        System.out.println(answer-1);
     }
 
-    private static void dfs(int idx, int target) {
+    private static void dfs2(int target, int idx) {
+        if (target == S) {
+            answer++;
+        }
+        for (int i = idx; i < N; i++) {
+            dfs2(target + numbers[i], i + 1);
+        }
+    }
+
+    private static void dfs(int target, int idx) {
         if (idx == N) {
             if (target == S) {
-                // System.out.println("[DEBUG][ADD ANSWER]: " + target);
-                answer ++;
+                answer++;
             }
-            // System.out.println("[DEBUG]: " + target);
             return;
         }
-
-        dfs(idx + 1, target + numbers[idx]);
-        dfs(idx + 1, target);
+        dfs(target, idx + 1);
+        dfs(target + numbers[idx], idx + 1);
     }
 }
