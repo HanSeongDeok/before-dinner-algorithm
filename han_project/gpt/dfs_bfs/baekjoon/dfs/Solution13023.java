@@ -15,7 +15,7 @@ public class Solution13023 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        N = Integer.parseInt(st.nextToken()); 
+        N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
         state = new boolean[N];
 
