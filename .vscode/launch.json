@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution30802",
+            "request": "launch",
+            "mainClass": "bronze.Solution30802",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution11050",
             "request": "launch",
             "mainClass": "basic.Solution11050",

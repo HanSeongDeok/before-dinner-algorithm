@@ -1,4 +1,4 @@
-package basic;
+package bronze;
 
 import java.io.*;
 import java.util.*;
