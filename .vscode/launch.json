@@ -3,6 +3,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution1546",
+            "request": "launch",
+            "mainClass": "bronze.Solution1546",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11723",
+            "request": "launch",
+            "mainClass": "silver.Solution11723",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution16236",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.dfs.Solution16236",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution81",
+            "request": "launch",
+            "mainClass": "brute_force.Solution81",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution74",
+            "request": "launch",
+            "mainClass": "brute_force.Solution74",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution78",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Solution78",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution37",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Solution37",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution33",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Solution33",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution30802",
             "request": "launch",
             "mainClass": "bronze.Solution30802",
