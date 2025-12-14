@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution16236",
+            "request": "launch",
+            "mainClass": "repeat.bfs.Solution16236",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution16236",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.bfs.Solution16236",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution1546",
             "request": "launch",
             "mainClass": "bronze.Solution1546",

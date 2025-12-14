@@ -1,4 +1,4 @@
-package dfs_bfs.baekjoon.dfs;
+package dfs_bfs.baekjoon.bfs;
 
 import java.io.*;
 import java.util.*;
