@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution13305",
+            "request": "launch",
+            "mainClass": "greedy.Solution13305",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1026",
+            "request": "launch",
+            "mainClass": "greedy.Solution1026",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11399",
+            "request": "launch",
+            "mainClass": "greedy.Solution11399",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution1541",
             "request": "launch",
             "mainClass": "greedy.Solution1541",
