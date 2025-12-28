@@ -3,6 +3,10 @@ package silver;
 import java.io.*;
 import java.util.*;
 
+/**
+ * BAEKJOON
+ * 2805. 나무 자르기
+ */
 public class Solution2805 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
