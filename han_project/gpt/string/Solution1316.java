@@ -1,9 +1,12 @@
 package string;
 
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 /**
+ * BAEKJOON
+ * 1316. 그룹 단어 체커
+ * 
  * 풀이 1 -> 정석 풀이
  * 풀이 2 -> regex 활용
  */
