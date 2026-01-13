@@ -1,8 +1,14 @@
 package string;
 
 import java.io.*;
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.*;
+
+/**
+ * BAEKJOON
+ * 10799. 쇠 막대기
+ * 
+ * 핵심 아이디어 -> () 일 때 덱에 저장된 '(' 의 수 만큼 막대기가 생성된다. 
+ */
 public class Solution10799 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
