@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution1316ByRegex",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution1316ByRegex",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution1316ByStandard",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution1316ByStandard",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
             "name": "Solution4949",
             "request": "launch",
             "mainClass": "string.Solution4949",
@@ -49,6 +63,13 @@
             "request": "launch",
             "mainClass": "repeat.string.Solution1316",
             "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution17413",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution17413",
+            "projectName": "before-dinner-algorithm_3b4aef90"
         },
         {
             "type": "java",
