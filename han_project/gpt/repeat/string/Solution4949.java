@@ -32,7 +32,7 @@ public class Solution4949 {
                     break;
                 }
             }
-            answer = seqDq.isEmpty() ? "yes" : "no";
+            answer = answer.equals("yes") && seqDq.isEmpty() ? "yes" : "no";
             System.out.println(answer);
         }
     }
