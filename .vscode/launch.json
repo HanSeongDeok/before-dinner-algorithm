@@ -14,6 +14,10 @@
             "request": "launch",
             "mainClass": "bronze.Solution4999",
             "projectName": "before-dinner-algorithm_d9517b0a"
+            "name": "Solution1713",
+            "request": "launch",
+            "mainClass": "implementation.Solution1713",
+            "projectName": "before-dinner-algorithm_3b4aef90"
         },
         {
             "type": "java",
