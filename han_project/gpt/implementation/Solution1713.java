@@ -16,18 +16,44 @@ public class Solution1713 {
         for (int i=0; i < N; i++) {
             box[i] = Integer.parseInt(st.nextToken());
         }
-
-        PriorityQueue<Integer> pq = new PriorityQueue<>(maxNum);
+        
+        Map<Integer, Card> cardMap = new HashMap<>();
         for (int i=0; i < N; i++) {
-            if (pq.size() < maxNum) {
-                pq.add(box[i]);
+            if (cardMap.size() < maxNum) {
+                if (!cardMap.isEmpty() && cardMap.containsKey(box[i])) {
+                    cardMap.get(box[i]).countCnt();
+                } else {
+                    cardMap.put(box[i], new Card(box[i],1, i));
+                }
             } else {
-                pq.poll();
-                pq.add(box[i]);
+                if (cardMap.containsKey(box[i])) {
+                    cardMap.get(box[i]).countCnt();
+                } else {
+                    List<Card> cards = (ArrayList<Card>)cardMap.values();  
+                    int id = cards.get(0).id;
+                    for (int n=1; n < maxNum; n++) {
+                        if (cards.get(n).cnt == cardMap.get(id).cnt) {
+                            id = cards.get(n).time >  cardMap.get(id).time ? cardMap.get(id).id : cards.get(n).id; 
+                        } else {
+                            id = cards.get(n).cnt > cardMap.get(id).cnt ? cards.get(n).cnt : cardMap.get(id).cnt; 
+                        }
+                    }
+                }
             }
+        } 
+    }
+
+    private static class Card {
+        int id;
+        int cnt; 
+        int time;
+        public Card(int id, int cnt, int time){
+            this.id = id;
+            this.cnt = cnt;
+            this.time = time;
         }
-        StringBuilder sb = new StringBuilder();
-        while (!pq.isEmpty()) sb.append(pq.poll()).append(" ");
-        System.out.println(sb.toString());
+        public void countCnt(){
+            cnt++;
+        } 
     }
 }
