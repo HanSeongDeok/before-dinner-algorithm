@@ -2,6 +2,12 @@ package implementation;
 
 import java.io.*;
 import java.util.*;
+import java.util.stream.Collectors;
+
+/**
+ * BAEKJOON
+ * 1713. 후보 추천하기
+ */
 public class Solution1713 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -20,7 +26,7 @@ public class Solution1713 {
         Map<Integer, Card> cardMap = new HashMap<>();
         for (int i=0; i < N; i++) {
             if (cardMap.size() < maxNum) {
-                if (!cardMap.isEmpty() && cardMap.containsKey(box[i])) {
+                if (cardMap.containsKey(box[i])) {
                     cardMap.get(box[i]).countCnt();
                 } else {
                     cardMap.put(box[i], new Card(box[i],1, i));
@@ -29,18 +35,21 @@ public class Solution1713 {
                 if (cardMap.containsKey(box[i])) {
                     cardMap.get(box[i]).countCnt();
                 } else {
-                    List<Card> cards = (ArrayList<Card>)cardMap.values();  
+                    List<Card> cards = cardMap.values().stream().collect(Collectors.toList());  
                     int id = cards.get(0).id;
                     for (int n=1; n < maxNum; n++) {
                         if (cards.get(n).cnt == cardMap.get(id).cnt) {
                             id = cards.get(n).time >  cardMap.get(id).time ? cardMap.get(id).id : cards.get(n).id; 
                         } else {
-                            id = cards.get(n).cnt > cardMap.get(id).cnt ? cards.get(n).cnt : cardMap.get(id).cnt; 
+                            id = cards.get(n).cnt > cardMap.get(id).cnt ? cardMap.get(id).id : cards.get(n).id; 
                         }
                     }
+                    cardMap.remove(id);
+                    cardMap.put(box[i], new Card(box[i],1, i));
                 }
             }
-        } 
+        }
+        cardMap.values().stream().sorted((v1, v2) -> v1.id - v2.id).forEach(v -> System.out.print(v.id + " "));
     }
 
     private static class Card {
