@@ -6,6 +6,11 @@
         "baekjoon/chaeeun",
         "programmers/han/gpt",
         "programmers/han/autoever",
-        "softeer/chaeeun"
+        "softeer/chaeeun",
+        "han_project/gpt",
+        "han_project/autoever",
+        "han_project/Level 2-3/java",
+        "han_project/repeat"
     ],
+    "editor.fontWeight": "500"
 }

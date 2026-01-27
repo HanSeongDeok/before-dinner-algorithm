@@ -3,13 +3,531 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution27434",
+            "request": "launch",
+            "mainClass": "bronze.Solution27434",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution4999",
+            "request": "launch",
+            "mainClass": "bronze.Solution4999",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+            "name": "Solution1713",
+            "request": "launch",
+            "mainClass": "implementation.Solution1713",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution14719",
+            "request": "launch",
+            "mainClass": "repeat.implementation.Solution14719",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution14719",
+            "request": "launch",
+            "mainClass": "implementation.Solution14719",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1244",
+            "request": "launch",
+            "mainClass": "implementation.Solution1244",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11021",
+            "request": "launch",
+            "mainClass": "bronze.Solution11021",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2504",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution2504",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1316ByRegex",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution1316ByRegex",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution1316ByStandard",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution1316ByStandard",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution4949",
+            "request": "launch",
+            "mainClass": "string.Solution4949",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution8393",
+            "request": "launch",
+            "mainClass": "bronze.Solution8393",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution10799",
+            "request": "launch",
+            "mainClass": "string.Solution10799",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1543",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution1543",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1543",
+            "request": "launch",
+            "mainClass": "string.Solution1543",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2941",
+            "request": "launch",
+            "mainClass": "string.Solution2941",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1316",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution1316",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution17413",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution17413",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution17413",
+            "request": "launch",
+            "mainClass": "string.Solution17413",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1316",
+            "request": "launch",
+            "mainClass": "repeat.string.Solution1316",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution1316",
+            "request": "launch",
+            "mainClass": "string.Solution1316",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution9498",
+            "request": "launch",
+            "mainClass": "bronze.Solution9498",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1008",
+            "request": "launch",
+            "mainClass": "bronze.Solution1008",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1012",
+            "request": "launch",
+            "mainClass": "Solution1012",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution9086",
+            "request": "launch",
+            "mainClass": "bronze.Solution9086",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution10989",
+            "request": "launch",
+            "mainClass": "bronze.Solution10989",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11724",
+            "request": "launch",
+            "mainClass": "Solution11724",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2606",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.dfs.Solution2606",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution2294",
+            "request": "launch",
+            "mainClass": "dp.baekjoon.Solution2294",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11049",
+            "request": "launch",
+            "mainClass": "dp.baekjoon.Solution11049",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2630",
+            "request": "launch",
+            "mainClass": "silver.Solution2630",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2292",
+            "request": "launch",
+            "mainClass": "bronze.Solution2292",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2805",
+            "request": "launch",
+            "mainClass": "silver.Solution2805",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution18870",
+            "request": "launch",
+            "mainClass": "silver.Solution18870",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution5430",
+            "request": "launch",
+            "mainClass": "gold.Solution5430",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1789",
+            "request": "launch",
+            "mainClass": "greedy.Solution1789",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2217",
+            "request": "launch",
+            "mainClass": "greedy.Solution2217",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2231",
+            "request": "launch",
+            "mainClass": "bronze.Solution2231",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution13305",
+            "request": "launch",
+            "mainClass": "greedy.Solution13305",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1026",
+            "request": "launch",
+            "mainClass": "greedy.Solution1026",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11399",
+            "request": "launch",
+            "mainClass": "greedy.Solution11399",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1541",
+            "request": "launch",
+            "mainClass": "greedy.Solution1541",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution1931",
+            "request": "launch",
+            "mainClass": "greedy.Solution1931",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution11047",
+            "request": "launch",
+            "mainClass": "greedy.Solution11047",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1927",
+            "request": "launch",
+            "mainClass": "silver.Solution1927",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1987",
+            "request": "launch",
+            "mainClass": "repeat.dfs.Solution1987",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11726",
+            "request": "launch",
+            "mainClass": "silver.Solution11726",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution14502",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.dfs.Solution14502",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11659",
+            "request": "launch",
+            "mainClass": "silver.Solution11659",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1620",
+            "request": "launch",
+            "mainClass": "silver.Solution1620",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution18405",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.bfs.Solution18405",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution16236",
+            "request": "launch",
+            "mainClass": "repeat.bfs.Solution16236",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution16236",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.bfs.Solution16236",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1546",
+            "request": "launch",
+            "mainClass": "bronze.Solution1546",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11723",
+            "request": "launch",
+            "mainClass": "silver.Solution11723",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution16236",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.dfs.Solution16236",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution81",
+            "request": "launch",
+            "mainClass": "brute_force.Solution81",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution74",
+            "request": "launch",
+            "mainClass": "brute_force.Solution74",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution78",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Solution78",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution37",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Solution37",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution33",
+            "request": "launch",
+            "mainClass": "dfs_bfs.Solution33",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution30802",
+            "request": "launch",
+            "mainClass": "bronze.Solution30802",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution11050",
+            "request": "launch",
+            "mainClass": "basic.Solution11050",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution1012",
+            "request": "launch",
+            "mainClass": "repeat.dfs.Solution1012",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution2468",
+            "request": "launch",
+            "mainClass": "repeat.dfs.Solution2468",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution2178",
+            "request": "launch",
+            "mainClass": "repeat.dfs.Solution2178",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution15657",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.Solution15657",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution1182",
             "request": "launch",
             "mainClass": "repeat.brute_force.Solution1182",
-            "projectName": "before-dinner-algorithm_3b4aef90"
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
             "name": "Solution1759",
             "request": "launch",
-            "mainClass": "brute_force.baekjoon.Solution1759",
+            "mainClass": "repeat.brute_force.Solution1759",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution9663",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.repeat.Solution9663",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution1759",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.repeat.Solution1759",
+            "projectName": "before-dinner-algorithm_3b4aef90"
+        },
+        {
+            "type": "java",
+            "name": "Solution13023",
+            "request": "launch",
+            "mainClass": "dfs_bfs.baekjoon.dfs.Solution13023",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution15656",
+            "request": "launch",
+            "mainClass": "brute_force.baekjoon.Solution15656",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution81",
+            "request": "launch",
+            "mainClass": "dp.Solution81",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2293",
+            "request": "launch",
+            "mainClass": "dp.baekjoon.Solution2293",
+            "projectName": "before-dinner-algorithm_d9517b0a"
+        },
+        {
+            "type": "java",
+            "name": "Solution2156",
+            "request": "launch",
+            "mainClass": "dp.baekjoon.Solution2156",
             "projectName": "before-dinner-algorithm_d9517b0a"
         },
         {
