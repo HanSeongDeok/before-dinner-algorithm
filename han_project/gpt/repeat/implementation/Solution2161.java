@@ -13,9 +13,19 @@ public class Solution2161 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         
         int N = Integer.parseInt(st.nextToken());
-        int box[] = new int[N ];
-        for (int i=1; i<=N; i++) box[i-1] = i; 
+        Deque<Integer> boxDq = new ArrayDeque<>();
+        Deque<Integer> answerDq = new ArrayDeque<>();
         
+        for (int i=1; i<=N; i++) boxDq.add(i);
         
+        while (boxDq.size() > 1) {
+            answerDq.add(boxDq.poll());
+            boxDq.add(boxDq.poll());
+        }
+
+        StringBuilder sb = new StringBuilder();
+        while (!answerDq.isEmpty()) sb.append(answerDq.poll());
+        sb.append(boxDq.poll());
+        System.out.println(sb.toString());
     }
 }
