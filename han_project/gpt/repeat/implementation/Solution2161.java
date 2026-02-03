@@ -24,7 +24,7 @@ public class Solution2161 {
         }
 
         StringBuilder sb = new StringBuilder();
-        while (!answerDq.isEmpty()) sb.append(answerDq.poll());
+        while (!answerDq.isEmpty()) sb.append(answerDq.poll()).append(" ");
         sb.append(boxDq.poll());
         System.out.println(sb.toString());
     }
