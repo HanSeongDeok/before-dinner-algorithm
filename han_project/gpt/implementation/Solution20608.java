@@ -44,10 +44,10 @@ public class Solution20608 {
                             if (table[nextN][nextM] == 0) emptyCnt ++;
                         }
                     }
-                    if (maxLike < likeCnt || 
-                        maxLike == likeCnt && maxEmpty < emptyCnt || 
-                        maxLike == likeCnt && maxEmpty == emptyCnt && bestN > n ||
-                        maxLike == likeCnt && maxEmpty == emptyCnt &&  bestN == n && bestM > m
+                    if (maxLike < likeCnt 
+                        || (maxLike == likeCnt && maxEmpty < emptyCnt)
+                        || (maxLike == likeCnt && maxEmpty == emptyCnt && bestN > n) 
+                        || (maxLike == likeCnt && maxEmpty == emptyCnt &&  bestN == n && bestM > m)
                     ) {
                         maxLike = likeCnt; maxEmpty = emptyCnt;
                         bestN = n; bestM = m;
@@ -70,9 +70,8 @@ public class Solution20608 {
                         if (likeList.contains(table[nextN][nextM])) cnt++;
                     }
                 }
-                int cal = cnt == 0 ? 0 : 1; 
-                for (int i=1; i <cnt; i++) cal *= 10;   
-                answer += cal;
+                int cal[] = {0, 1, 10, 100, 1000}; 
+                answer += cal[cnt];
             }
         }
         System.out.println(answer);
