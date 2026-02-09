@@ -5,9 +5,9 @@ import java.util.*;
 
 /**
  * BAEKJOON
- * 20608. 상어 초등학교
+ * 21608. 상어 초등학교
  */
-public class Solution20608 {
+public class Solution21608 {
     private static int[] mapN = {1, -1, 0, 0};
     private static int[] mapM = {0, 0, 1, -1};
     public static void main(String[] args) throws IOException{

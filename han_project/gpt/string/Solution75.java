@@ -1,4 +1,4 @@
-package implementation;
+package string;
 
 /**
  * 75. 문자열 압축
