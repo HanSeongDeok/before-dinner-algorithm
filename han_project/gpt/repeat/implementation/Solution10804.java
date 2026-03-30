@@ -12,26 +12,25 @@ public class Solution10804 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         List<Integer> list = new ArrayList<>();
-        for (int i = 0; i <= 20; i++) list.add(i);
-
-        for (int i=0; i < 10; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
+        for (int i=1; i <= 20; i++) list.add(i);
+        
+        Deque<Integer> dq = new ArrayDeque<>();
+        StringTokenizer st;
+        for (int i=0; i<10; i++) {
+            st = new StringTokenizer(br.readLine());
             int start = Integer.parseInt(st.nextToken());
             int end = Integer.parseInt(st.nextToken());
             
-            for (int j=start; j < (start + end) / 2; j++) {
-                int s = list.get(j);
-                int e = list.get(start + end-j);
+            for (int s=start; s <= end; s++) {
+                dq.add(list.get(s-1));
+            }
 
-                list.remove(j);
-                list.add(j, e);
-
-                list.remove(start + end-j);
-                list.add(start + end-j, s);
+            for(int s=start; s <= end; s++) {
+                list.remove(s-1);
+                list.add(s-1, dq.pollLast());
             }
         }
-        StringBuilder sb = new StringBuilder();
-        for (int i=1; i<=20; i++) sb.append(list.get(i)).append(" ");
-        System.out.println(sb.toString());
+
+        list.forEach(n -> System.out.print(n + " "));
     }
 }
