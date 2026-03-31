@@ -4,34 +4,36 @@ import java.util.*;
 import java.io.*;
 
 /**
- * BAEKJOON 
+ * BAEKJOON
  * 17413. 단어 뒤집기 2
  */
 public class Solution17413 {
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String word = br.readLine();
-        
-        boolean isValid = false;
         StringBuilder sb = new StringBuilder();
-        Deque<Character> dq = new ArrayDeque<>();
 
-        for (char w : word.toCharArray()) {
-            if (w == '<') isValid = true;
-            if (isValid) {
-                if (w == '>') isValid = false;
-                while (!dq.isEmpty()) sb.append(dq.poll());
-                sb.append(w);
+        boolean flag = false;
+        Deque<Character> dq = new ArrayDeque<>();
+        for (char c : word.toCharArray()) {
+            if (c == '<' || c == '>') {
+                flag = c == '<' ? true : false;
+                while (!dq.isEmpty()) sb.append(dq.pollLast());
+                sb.append(c);
+                continue;
+            } 
+            if (flag) {
+                sb.append(c);
                 continue;
             }
-            if (w == ' ') {
-                while(!dq.isEmpty()) sb.append(dq.poll());
-                sb.append(w);
+            if (c == ' ') {
+                while (!dq.isEmpty()) sb.append(dq.pollLast());
+                sb.append(c);
                 continue;
             }
-            dq.addFirst(w);
+            dq.add(c);
         }
-        while(!dq.isEmpty()) sb.append(dq.poll());
+        while (!dq.isEmpty()) sb.append(dq.pollLast());
         System.out.println(sb.toString());
     }
 }
