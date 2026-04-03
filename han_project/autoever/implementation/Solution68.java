@@ -58,9 +58,41 @@ public class Solution68 {
         for (int k = idx; k < keyList.size(); k++) {
             for (String c : clothesMap.get(keyList.get(k))) {
                 list.add(new String[] { keyList.get(k), c });
-                dfs(clothesMap, list, keyList, idx + 1);
+                dfs(clothesMap, list, keyList, k + 1);
                 list.remove(list.size() - 1);
             }
+        }
+    }
+
+    /** 의상: 종류별 최대 1벌, 1벌 이상 — depth(종류 인덱스)마다 안 입음 / 하나 입음 백트래킹 */
+    public int solution3(String[][] clothes) {
+        Map<String, List<String>> clothesMap = new HashMap<>();
+        for (String[] c : clothes) {
+            clothesMap.computeIfAbsent(c[1], k -> new ArrayList<>()).add(c[0]);
+        }
+        List<String> types = new ArrayList<>(clothesMap.keySet());
+        int[] count = new int[1];
+        dfsBacktrackClothes(clothesMap, types, 0, new ArrayList<>(), count);
+        return count[0];
+    }
+
+    private void dfsBacktrackClothes(
+            Map<String, List<String>> clothesMap,
+            List<String> types,
+            int depth,
+            List<String> worn,
+            int[] count) {
+        if (depth == types.size()) {
+            if (!worn.isEmpty()) {
+                count[0]++;
+            }
+            return;
+        }
+        dfsBacktrackClothes(clothesMap, types, depth + 1, worn, count);
+        for (String item : clothesMap.get(types.get(depth))) {
+            worn.add(item);
+            dfsBacktrackClothes(clothesMap, types, depth + 1, worn, count);
+            worn.remove(worn.size() - 1);
         }
     }
 }
